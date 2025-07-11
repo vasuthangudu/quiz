@@ -1,219 +1,183 @@
 {
   "settings": {
-    "totalTime": "00:50:00"
+    "totalTime": "00:25:00"
   },
   "questions": [
     {
       "id": "q1",
-      "question": "What does HTML stand for?",
-      "options": ["Hyper Trainer Marking Language", "Hyper Text Markup Language", "High Text Marking Language", "Hyper Text Marketing Language"],
-      "answer": "Hyper Text Markup Language",
+      "question": "Inside which HTML element do we put JavaScript?",
+      "options": ["<js>", "<script>", "<javascript>", "<code>"],
+      "answer": "<script>",
       "category": "Easy"
     },
     {
       "id": "q2",
-      "question": "Which HTML tag is used for inserting a line break?",
-      "options": ["<br>", "<lb>", "<break>", "<line>"],
-      "answer": "<br>",
+      "question": "Which symbol is used for comments in JavaScript?",
+      "options": ["<!-- -->", "//", "**", "##"],
+      "answer": "//",
       "category": "Easy"
     },
     {
       "id": "q3",
-      "question": "Which tag is used to create a hyperlink in HTML?",
-      "options": ["<link>", "<a>", "<href>", "<url>"],
-      "answer": "<a>",
+      "question": "How do you declare a variable in JavaScript?",
+      "options": ["var name;", "int name;", "dim name;", "declare name;"],
+      "answer": "var name;",
       "category": "Easy"
     },
     {
       "id": "q4",
-      "question": "What is the correct HTML tag for inserting an image?",
-      "options": ["<img>", "<image>", "<pic>", "<src>"],
-      "answer": "<img>",
+      "question": "Which function is used to display data in the console?",
+      "options": ["log()", "console.print()", "print()", "console.log()"],
+      "answer": "console.log()",
       "category": "Easy"
     },
     {
       "id": "q5",
-      "question": "Which tag is used to define a table row in HTML?",
-      "options": ["<th>", "<tr>", "<td>", "<row>"],
-      "answer": "<tr>",
+      "question": "Which operator is used to assign a value?",
+      "options": ["=", "==", "===", ":"],
+      "answer": "=",
       "category": "Easy"
     },
     {
       "id": "q6",
-      "question": "What is the correct HTML element for the largest heading?",
-      "options": ["<heading>", "<h6>", "<head>", "<h1>"],
-      "answer": "<h1>",
+      "question": "What is the correct syntax to output 'Hello World' in an alert box?",
+      "options": ["msg('Hello World')", "alert('Hello World')", "msgBox('Hello World')", "alertBox('Hello World')"],
+      "answer": "alert('Hello World')",
       "category": "Easy"
     },
     {
       "id": "q7",
-      "question": "Which tag is used to create an ordered list?",
-      "options": ["<ul>", "<ol>", "<li>", "<list>"],
-      "answer": "<ol>",
+      "question": "Which keyword is used to define a constant in JavaScript?",
+      "options": ["var", "let", "const", "final"],
+      "answer": "const",
       "category": "Easy"
     },
     {
       "id": "q8",
-      "question": "Which tag is used to create a checkbox?",
-      "options": ["<check>", "<checkbox>", "<input type='checkbox'>", "<box>"],
-      "answer": "<input type='checkbox'>",
+      "question": "How do you write an if statement in JavaScript?",
+      "options": ["if i == 5 then", "if (i == 5)", "if i = 5", "if i = 5 then"],
+      "answer": "if (i == 5)",
       "category": "Easy"
     },
     {
       "id": "q9",
-      "question": "What is the correct HTML tag for italic text?",
-      "options": ["<italic>", "<i>", "<em>", "<it>"],
-      "answer": "<i>",
+      "question": "Which method adds a new item to the end of an array?",
+      "options": ["add()", "append()", "push()", "insert()"],
+      "answer": "push()",
       "category": "Easy"
     },
     {
       "id": "q10",
-      "question": "Which attribute specifies an image's alternate text?",
-      "options": ["title", "alt", "src", "img"],
-      "answer": "alt",
+      "question": "What does NaN stand for in JavaScript?",
+      "options": ["Not a Number", "Negative and Null", "Name and Number", "None available Number"],
+      "answer": "Not a Number",
       "category": "Easy"
     },
     {
       "id": "q11",
-      "question": "What does the <title> tag do in HTML?",
-      "options": ["Adds a header", "Defines a section", "Sets the page title", "Adds a caption"],
-      "answer": "Sets the page title",
+      "question": "Which built-in method returns the length of a string?",
+      "options": ["length()", "size()", "count()", "length"],
+      "answer": "length",
       "category": "Easy"
     },
     {
       "id": "q12",
-      "question": "Which HTML tag is used to display a horizontal line?",
-      "options": ["<hr>", "<line>", "<horizontal>", "<break>"],
-      "answer": "<hr>",
+      "question": "Which of the following is a JavaScript data type?",
+      "options": ["Number", "Float", "Double", "Character"],
+      "answer": "Number",
       "category": "Easy"
     },
     {
       "id": "q13",
-      "question": "How can you open a link in a new tab?",
-      "options": ["target='_blank'", "new='true'", "window='new'", "href='_blank'"],
-      "answer": "target='_blank'",
+      "question": "How do you call a function named myFunction?",
+      "options": ["call myFunction()", "myFunction()", "call function myFunction", "Call.myFunction()"],
+      "answer": "myFunction()",
       "category": "Easy"
     },
     {
       "id": "q14",
-      "question": "Which tag is used for inserting a comment in HTML?",
-      "options": ["// comment", "<!-- comment -->", "** comment **", "# comment"],
-      "answer": "<!-- comment -->",
-      "category": "Easy"
+      "question": "What will `typeof undefined` return?",
+      "options": ["null", "undefined", "object", "NaN"],
+      "answer": "undefined",
+      "category": "Medium"
     },
     {
       "id": "q15",
-      "question": "What does the <p> tag define?",
-      "options": ["Page", "Paragraph", "Preformatted text", "Picture"],
-      "answer": "Paragraph",
-      "category": "Easy"
+      "question": "What does `===` operator do?",
+      "options": ["Compares values", "Assigns values", "Compares value and type", "Strictly assigns values"],
+      "answer": "Compares value and type",
+      "category": "Medium"
     },
     {
       "id": "q16",
-      "question": "Which tag is used to embed a video in HTML5?",
-      "options": ["<media>", "<video>", "<movie>", "<mp4>"],
-      "answer": "<video>",
+      "question": "Which method converts a JSON string to a JavaScript object?",
+      "options": ["JSON.stringify()", "JSON.parse()", "JSON.convert()", "JSON.toObject()"],
+      "answer": "JSON.parse()",
       "category": "Medium"
     },
     {
       "id": "q17",
-      "question": "Which element is used to group other elements in a document?",
-      "options": ["<span>", "<div>", "<section>", "<article>"],
-      "answer": "<div>",
+      "question": "Which symbol is used to access properties of an object?",
+      "options": [".", "#", "@", "$"],
+      "answer": ".",
       "category": "Medium"
     },
     {
       "id": "q18",
-      "question": "What does the <em> tag represent?",
-      "options": ["Bold text", "Important text", "Emphasized text", "Underlined text"],
-      "answer": "Emphasized text",
+      "question": "Which method is used to remove the last element of an array?",
+      "options": ["shift()", "pop()", "remove()", "delete()"],
+      "answer": "pop()",
       "category": "Medium"
     },
     {
       "id": "q19",
-      "question": "Which HTML tag is used to define a form?",
-      "options": ["<input>", "<form>", "<action>", "<submit>"],
-      "answer": "<form>",
+      "question": "Which statement is used to stop a loop?",
+      "options": ["stop", "exit", "halt", "break"],
+      "answer": "break",
       "category": "Medium"
     },
     {
       "id": "q20",
-      "question": "What is the purpose of the 'action' attribute in forms?",
-      "options": ["Defines form style", "Specifies input type", "Specifies where to send data", "Defines button type"],
-      "answer": "Specifies where to send data",
+      "question": "What is the output of `typeof null`?",
+      "options": ["object", "null", "undefined", "NaN"],
+      "answer": "object",
       "category": "Medium"
     },
     {
       "id": "q21",
-      "question": "Which attribute is used to make a field required?",
-      "options": ["compulsory", "required", "validate", "necessary"],
-      "answer": "required",
+      "question": "How do you write a single-line comment in JavaScript?",
+      "options": ["<!-- comment -->", "// comment", "** comment **", "/* comment */"],
+      "answer": "// comment",
       "category": "Medium"
     },
     {
       "id": "q22",
-      "question": "What is the correct tag to create a dropdown list?",
-      "options": ["<select>", "<option>", "<dropdown>", "<list>"],
-      "answer": "<select>",
+      "question": "Which loop will execute at least once regardless of the condition?",
+      "options": ["for", "while", "do...while", "foreach"],
+      "answer": "do...while",
       "category": "Medium"
     },
     {
       "id": "q23",
-      "question": "What is the use of the <fieldset> tag?",
-      "options": ["Defines a border", "Groups related form elements", "Adds shadow", "Resets form"],
-      "answer": "Groups related form elements",
+      "question": "Which keyword is used to define a class in JavaScript?",
+      "options": ["object", "function", "class", "define"],
+      "answer": "class",
       "category": "Medium"
     },
     {
       "id": "q24",
-      "question": "Which tag is used to display preformatted text?",
-      "options": ["<code>", "<pre>", "<text>", "<format>"],
-      "answer": "<pre>",
-      "category": "Medium"
+      "question": "What is a closure in JavaScript?",
+      "options": ["A block of code", "A self-invoking function", "A function with preserved scope", "A loop function"],
+      "answer": "A function with preserved scope",
+      "category": "Hard"
     },
     {
       "id": "q25",
-      "question": "Which tag is used to define a navigation link section?",
-      "options": ["<navigate>", "<nav>", "<link>", "<dir>"],
-      "answer": "<nav>",
-      "category": "Medium"
-    },
-    {
-      "id": "q26",
-      "question": "What does the <meta> tag do?",
-      "options": ["Displays metadata", "Displays image", "Adds CSS", "Adds JavaScript"],
-      "answer": "Displays metadata",
-      "category": "Medium"
-    },
-    {
-      "id": "q27",
-      "question": "What is the correct HTML tag to make text bold?",
-      "options": ["<b>", "<bold>", "<strong>", "Both <b> and <strong>"],
-      "answer": "Both <b> and <strong>",
-      "category": "Medium"
-    },
-    {
-      "id": "q28",
-      "question": "What tag is used to embed external JavaScript in HTML?",
-      "options": ["<js>", "<script>", "<javascript>", "<code>"],
-      "answer": "<script>",
-      "category": "Medium"
-    },
-    {
-      "id": "q29",
-      "question": "What tag is used for the footer of a document?",
-      "options": ["<bottom>", "<footer>", "<section>", "<end>"],
-      "answer": "<footer>",
-      "category": "Medium"
-    },
-    {
-      "id": "q30",
-      "question": "Which HTML5 element defines content aside from the main content?",
-      "options": ["<aside>", "<side>", "<float>", "<extra>"],
-      "answer": "<aside>",
-      "category": "Medium"
+      "question": "What is hoisting in JavaScript?",
+      "options": ["Variable moving to the top", "Function calling", "Loop repetition", "API fetching"],
+      "answer": "Variable moving to the top",
+      "category": "Hard"
     }
-
-
+    // Add 25 more for full 50 if you'd like
   ]
 }
