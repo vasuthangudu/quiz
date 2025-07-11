@@ -61,9 +61,11 @@ export default function App() {
 
   const exportPDF = () => {
     const doc = new jsPDF();
-    doc.text("Quiz Results", 14, 10);
+    doc.text(`Quiz Results : ${score} / ${questions.length}`, 14, 10);
     doc.text(`Name: ${userData.fullName}`, 14, 18);
     doc.text(`Phone: ${userData.phoneNumber}`, 14, 26);
+
+  
 
     const rows = questions.map((q, i) => [
       `Q${i + 1}`,
