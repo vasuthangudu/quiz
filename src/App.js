@@ -15,6 +15,8 @@ const shuffle = (arr) => [...arr].sort(() => Math.random() - 0.5);
 
 export default function App() {
   const totalSeconds = parseTime(quizFile.settings.totalTime);
+  const [formVisible, setFormVisible] = useState(true);
+  const [userData, setUserData] = useState({ fullName: "", phoneNumber: "" });
   const [started, setStarted] = useState(false);
   const [catSel, setCatSel] = useState({ Easy: true, Medium: true, Hard: true });
   const [questions, setQuestions] = useState([]);
@@ -60,6 +62,9 @@ export default function App() {
   const exportPDF = () => {
     const doc = new jsPDF();
     doc.text("Quiz Results", 14, 10);
+    doc.text(`Name: ${userData.fullName}`, 14, 18);
+    doc.text(`Phone: ${userData.phoneNumber}`, 14, 26);
+
     const rows = questions.map((q, i) => [
       `Q${i + 1}`,
       q.category,
@@ -68,12 +73,14 @@ export default function App() {
       q.answer,
       selected[q.id] === q.answer ? "✔" : "✘",
     ]);
+
     autoTable(doc, {
       head: [["No", "Cat", "Question", "Your", "Correct", "Result"]],
       body: rows,
-      startY: 18,
+      startY: 32,
       styles: { fontSize: 8 },
     });
+
     doc.save("results.pdf");
   };
 
@@ -86,23 +93,87 @@ export default function App() {
     return ans ? "btn-warning" : "btn-outline-secondary";
   };
 
+  // Step 1: User Form
+  if (formVisible) {
+    return (
+      <div className="container py-5" style={{ maxWidth: 500 }}>
+        <h3 className="mb-4 text-center">Enter Your Details</h3>
+        <div className="mb-3">
+          <label className="form-label">Full Name</label>
+          <input
+            type="text"
+            className="form-control"
+            value={userData.fullName}
+            onChange={(e) => setUserData({ ...userData, fullName: e.target.value })}
+          />
+        </div>
+        <div className="mb-3">
+          <label className="form-label">Phone Number</label>
+ <input
+  type="tel"
+  className="form-control"
+  value={userData.phoneNumber}
+  onChange={(e) => {
+    const val = e.target.value;
+    if (/^\d{0,10}$/.test(val)) {
+      setUserData({ ...userData, phoneNumber: val });
+    }
+  }}
+  maxLength={10}
+  placeholder="Enter 10-digit phone number"
+/>
+
+
+
+
+        </div>
+    <button
+  className="btn btn-primary w-100"
+  onClick={() => {
+    if (userData.phoneNumber.length !== 10) {
+      alert("Phone number must be exactly 10 digits.");
+      return;
+    }
+    setFormVisible(false);
+  }}
+  disabled={!userData.fullName || !userData.phoneNumber}
+>
+  Next ➡
+</button>
+
+      </div>
+    );
+  }
+
+  // Step 2: Category Selection
   if (!started) {
     return (
       <div className="container py-5" style={{ maxWidth: 400 }}>
         <h3 className="mb-4 text-center">Select Categories</h3>
         {Object.keys(catSel).map((c) => (
           <div key={c} className="form-check mb-2">
-            <input id={c} type="checkbox" className="form-check-input" checked={catSel[c]} onChange={() => setCatSel((p) => ({ ...p, [c]: !p[c] }))} />
+            <input
+              id={c}
+              type="checkbox"
+              className="form-check-input"
+              checked={catSel[c]}
+              onChange={() => setCatSel((p) => ({ ...p, [c]: !p[c] }))}
+            />
             <label htmlFor={c} className="form-check-label">{c}</label>
           </div>
         ))}
-        <button className="btn btn-primary w-100 mt-3" disabled={Object.values(catSel).every((v) => !v)} onClick={() => setStarted(true)}>
+        <button
+          className="btn btn-primary w-100 mt-3"
+          disabled={Object.values(catSel).every((v) => !v)}
+          onClick={() => setStarted(true)}
+        >
           Start Quiz
         </button>
       </div>
     );
   }
 
+  // Step 3: Quiz Screen
   const cur = questions[currentIndex];
   if (!cur) return <p className="text-center mt-4">Loading...</p>;
 
@@ -120,8 +191,12 @@ export default function App() {
             ))}
           </div>
         </div>
+
         {/* Main */}
         <div className="col-md-9">
+          <div className="mb-2">
+            <strong>Name:</strong> {userData.fullName} | <strong>Phone:</strong> {userData.phoneNumber}
+          </div>
           <div className="d-flex justify-content-between align-items-center mb-3">
             <h5>
               Question {currentIndex + 1}/{questions.length} <small className="text-muted">[{cur.category}]</small>
@@ -136,15 +211,27 @@ export default function App() {
                   <h5>{cur.question}</h5>
                   {cur.options.map((opt) => (
                     <label key={opt} className="list-group-item">
-                      <input type="radio" className="form-check-input me-2" name={cur.id} value={opt}
-                        checked={selected[cur.id] === opt} onChange={() => setSelected((p) => ({ ...p, [cur.id]: opt }))} />
+                      <input
+                        type="radio"
+                        className="form-check-input me-2"
+                        name={cur.id}
+                        value={opt}
+                        checked={selected[cur.id] === opt}
+                        onChange={() => setSelected((p) => ({ ...p, [cur.id]: opt }))}
+                      />
                       {opt}
                     </label>
                   ))}
                 </div>
               </div>
               <div className="d-flex justify-content-between">
-                <button className="btn btn-secondary" disabled={currentIndex === 0} onClick={() => setCurrentIndex((i) => i - 1)}>⬅ Prev</button>
+                <button
+                  className="btn btn-secondary"
+                  disabled={currentIndex === 0}
+                  onClick={() => setCurrentIndex((i) => i - 1)}
+                >
+                  ⬅ Prev
+                </button>
                 {currentIndex < questions.length - 1 ? (
                   <button className="btn btn-primary" onClick={() => setCurrentIndex((i) => i + 1)}>Next ➡</button>
                 ) : (
@@ -154,7 +241,9 @@ export default function App() {
             </>
           ) : (
             <>
-              <div className="alert alert-info text-center fw-bold">🎯 Score: {score} / {questions.length}</div>
+              <div className="alert alert-info text-center fw-bold">
+                🎯 Score: {score} / {questions.length}
+              </div>
               {questions.map((q, i) => {
                 const a = selected[q.id];
                 const ok = a === q.answer;
