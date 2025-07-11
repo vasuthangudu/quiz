@@ -1,9 +1,8 @@
 {
   "settings": {
-    "totalTime": "00:30:00"
+    "totalTime": "00:50:00"
   },
   "questions": [
-  
     {
       "id": "q1",
       "question": "What does HTML stand for?",
@@ -39,201 +38,182 @@
       "answer": "<tr>",
       "category": "Easy"
     },
-
- 
     {
       "id": "q6",
-      "question": "What does CSS stand for?",
-      "options": ["Cascading Style Sheets", "Computer Style Sheets", "Creative Style System", "Colorful Style Sheets"],
-      "answer": "Cascading Style Sheets",
+      "question": "What is the correct HTML element for the largest heading?",
+      "options": ["<heading>", "<h6>", "<head>", "<h1>"],
+      "answer": "<h1>",
       "category": "Easy"
     },
     {
       "id": "q7",
-      "question": "Which HTML tag is used to include an external CSS file?",
-      "options": ["<style>", "<css>", "<link>", "<script>"],
-      "answer": "<link>",
+      "question": "Which tag is used to create an ordered list?",
+      "options": ["<ul>", "<ol>", "<li>", "<list>"],
+      "answer": "<ol>",
       "category": "Easy"
     },
     {
       "id": "q8",
-      "question": "Which CSS property controls the text size?",
-      "options": ["text-style", "font-style", "text-size", "font-size"],
-      "answer": "font-size",
+      "question": "Which tag is used to create a checkbox?",
+      "options": ["<check>", "<checkbox>", "<input type='checkbox'>", "<box>"],
+      "answer": "<input type='checkbox'>",
       "category": "Easy"
     },
     {
       "id": "q9",
-      "question": "How do you apply a background color in CSS?",
-      "options": ["color: blue;", "bgcolor: blue;", "background: blue;", "background-color: blue;"],
-      "answer": "background-color: blue;",
+      "question": "What is the correct HTML tag for italic text?",
+      "options": ["<italic>", "<i>", "<em>", "<it>"],
+      "answer": "<i>",
       "category": "Easy"
     },
     {
       "id": "q10",
-      "question": "How do you center text in CSS?",
-      "options": ["text-align: center;", "align: center;", "center-text: yes;", "text-center: true;"],
-      "answer": "text-align: center;",
+      "question": "Which attribute specifies an image's alternate text?",
+      "options": ["title", "alt", "src", "img"],
+      "answer": "alt",
       "category": "Easy"
     },
-
-
     {
       "id": "q11",
-      "question": "Inside which HTML element do we put JavaScript?",
-      "options": ["<js>", "<script>", "<javascript>", "<code>"],
-      "answer": "<script>",
+      "question": "What does the <title> tag do in HTML?",
+      "options": ["Adds a header", "Defines a section", "Sets the page title", "Adds a caption"],
+      "answer": "Sets the page title",
       "category": "Easy"
     },
     {
       "id": "q12",
-      "question": "Which symbol is used for comments in JavaScript?",
-      "options": ["<!-- -->", "//", "**", "##"],
-      "answer": "//",
+      "question": "Which HTML tag is used to display a horizontal line?",
+      "options": ["<hr>", "<line>", "<horizontal>", "<break>"],
+      "answer": "<hr>",
       "category": "Easy"
     },
     {
       "id": "q13",
-      "question": "How do you declare a variable in JavaScript?",
-      "options": ["var name;", "int name;", "dim name;", "declare name;"],
-      "answer": "var name;",
+      "question": "How can you open a link in a new tab?",
+      "options": ["target='_blank'", "new='true'", "window='new'", "href='_blank'"],
+      "answer": "target='_blank'",
       "category": "Easy"
     },
     {
       "id": "q14",
-      "question": "Which function is used to display data in the console?",
-      "options": ["log()", "console.print()", "print()", "console.log()"],
-      "answer": "console.log()",
+      "question": "Which tag is used for inserting a comment in HTML?",
+      "options": ["// comment", "<!-- comment -->", "** comment **", "# comment"],
+      "answer": "<!-- comment -->",
       "category": "Easy"
     },
     {
       "id": "q15",
-      "question": "Which operator is used to assign a value?",
-      "options": ["=", "==", "===", ":"],
-      "answer": "=",
+      "question": "What does the <p> tag define?",
+      "options": ["Page", "Paragraph", "Preformatted text", "Picture"],
+      "answer": "Paragraph",
       "category": "Easy"
     },
-
- 
     {
       "id": "q16",
-      "question": "Which HTML element is used to define important text?",
-      "options": ["<important>", "<strong>", "<b>", "<highlight>"],
-      "answer": "<strong>",
+      "question": "Which tag is used to embed a video in HTML5?",
+      "options": ["<media>", "<video>", "<movie>", "<mp4>"],
+      "answer": "<video>",
       "category": "Medium"
     },
     {
       "id": "q17",
-      "question": "Which attribute is used with <input> to define a default value?",
-      "options": ["placeholder", "value", "default", "text"],
-      "answer": "value",
+      "question": "Which element is used to group other elements in a document?",
+      "options": ["<span>", "<div>", "<section>", "<article>"],
+      "answer": "<div>",
       "category": "Medium"
     },
     {
       "id": "q18",
-      "question": "Which element is used for unordered lists?",
-      "options": ["<ul>", "<ol>", "<li>", "<list>"],
-      "answer": "<ul>",
+      "question": "What does the <em> tag represent?",
+      "options": ["Bold text", "Important text", "Emphasized text", "Underlined text"],
+      "answer": "Emphasized text",
       "category": "Medium"
     },
-
     {
       "id": "q19",
-      "question": "How do you select an element with id='main' in CSS?",
-      "options": [".main", "#main", "*main", "main"],
-      "answer": "#main",
+      "question": "Which HTML tag is used to define a form?",
+      "options": ["<input>", "<form>", "<action>", "<submit>"],
+      "answer": "<form>",
       "category": "Medium"
     },
     {
       "id": "q20",
-      "question": "What is the default position value in CSS?",
-      "options": ["relative", "static", "absolute", "fixed"],
-      "answer": "static",
+      "question": "What is the purpose of the 'action' attribute in forms?",
+      "options": ["Defines form style", "Specifies input type", "Specifies where to send data", "Defines button type"],
+      "answer": "Specifies where to send data",
       "category": "Medium"
     },
     {
       "id": "q21",
-      "question": "Which property is used for spacing inside an element?",
-      "options": ["margin", "padding", "border", "space"],
-      "answer": "padding",
+      "question": "Which attribute is used to make a field required?",
+      "options": ["compulsory", "required", "validate", "necessary"],
+      "answer": "required",
       "category": "Medium"
     },
-
- 
     {
       "id": "q22",
-      "question": "Which method converts JSON to an object?",
-      "options": ["JSON.stringify()", "JSON.parse()", "JSON.convert()", "JSON.decode()"],
-      "answer": "JSON.parse()",
+      "question": "What is the correct tag to create a dropdown list?",
+      "options": ["<select>", "<option>", "<dropdown>", "<list>"],
+      "answer": "<select>",
       "category": "Medium"
     },
     {
       "id": "q23",
-      "question": "What is the output of typeof null?",
-      "options": ["null", "object", "undefined", "boolean"],
-      "answer": "object",
+      "question": "What is the use of the <fieldset> tag?",
+      "options": ["Defines a border", "Groups related form elements", "Adds shadow", "Resets form"],
+      "answer": "Groups related form elements",
       "category": "Medium"
     },
     {
       "id": "q24",
-      "question": "Which keyword is used to define a constant?",
-      "options": ["const", "let", "var", "final"],
-      "answer": "const",
+      "question": "Which tag is used to display preformatted text?",
+      "options": ["<code>", "<pre>", "<text>", "<format>"],
+      "answer": "<pre>",
       "category": "Medium"
     },
-
-
     {
       "id": "q25",
-      "question": "What is the specificity of a CSS ID selector?",
-      "options": ["0,0,1,0", "1,0,0,0", "0,1,0,0", "0,0,0,1"],
-      "answer": "0,1,0,0",
-      "category": "Hard"
+      "question": "Which tag is used to define a navigation link section?",
+      "options": ["<navigate>", "<nav>", "<link>", "<dir>"],
+      "answer": "<nav>",
+      "category": "Medium"
     },
     {
       "id": "q26",
-      "question": "What is event bubbling in JavaScript?",
-      "options": [
-        "Events occurring in order",
-        "Child to parent event propagation",
-        "Event refresh",
-        "Preventing event handling"
-      ],
-      "answer": "Child to parent event propagation",
-      "category": "Hard"
+      "question": "What does the <meta> tag do?",
+      "options": ["Displays metadata", "Displays image", "Adds CSS", "Adds JavaScript"],
+      "answer": "Displays metadata",
+      "category": "Medium"
     },
     {
       "id": "q27",
-      "question": "Which API lets JavaScript make HTTP requests?",
-      "options": ["fetch()", "httpRequest()", "XMLHttp()", "getRequest()"],
-      "answer": "fetch()",
-      "category": "Hard"
+      "question": "What is the correct HTML tag to make text bold?",
+      "options": ["<b>", "<bold>", "<strong>", "Both <b> and <strong>"],
+      "answer": "Both <b> and <strong>",
+      "category": "Medium"
     },
     {
       "id": "q28",
-      "question": "Which property prevents flex items from shrinking?",
-      "options": ["flex-shrink", "flex-grow", "flex-wrap", "flex-basis"],
-      "answer": "flex-shrink",
-      "category": "Hard"
+      "question": "What tag is used to embed external JavaScript in HTML?",
+      "options": ["<js>", "<script>", "<javascript>", "<code>"],
+      "answer": "<script>",
+      "category": "Medium"
     },
     {
       "id": "q29",
-      "question": "Which tag supports semantic layout in HTML5?",
-      "options": ["<section>", "<div>", "<span>", "<layout>"],
-      "answer": "<section>",
-      "category": "Hard"
+      "question": "What tag is used for the footer of a document?",
+      "options": ["<bottom>", "<footer>", "<section>", "<end>"],
+      "answer": "<footer>",
+      "category": "Medium"
     },
     {
       "id": "q30",
-      "question": "What is a JavaScript promise?",
-      "options": [
-        "A variable storing data",
-        "A placeholder for future value",
-        "A function",
-        "A data type"
-      ],
-      "answer": "A placeholder for future value",
-      "category": "Hard"
+      "question": "Which HTML5 element defines content aside from the main content?",
+      "options": ["<aside>", "<side>", "<float>", "<extra>"],
+      "answer": "<aside>",
+      "category": "Medium"
     }
+
+    // 20 more can be continued if you'd like...
   ]
 }
