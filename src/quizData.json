@@ -1,0 +1,239 @@
+{
+  "settings": {
+    "totalTime": "00:30:00"
+  },
+  "questions": [
+  
+    {
+      "id": "q1",
+      "question": "What does HTML stand for?",
+      "options": ["Hyper Trainer Marking Language", "Hyper Text Markup Language", "High Text Marking Language", "Hyper Text Marketing Language"],
+      "answer": "Hyper Text Markup Language",
+      "category": "Easy"
+    },
+    {
+      "id": "q2",
+      "question": "Which HTML tag is used for inserting a line break?",
+      "options": ["<br>", "<lb>", "<break>", "<line>"],
+      "answer": "<br>",
+      "category": "Easy"
+    },
+    {
+      "id": "q3",
+      "question": "Which tag is used to create a hyperlink in HTML?",
+      "options": ["<link>", "<a>", "<href>", "<url>"],
+      "answer": "<a>",
+      "category": "Easy"
+    },
+    {
+      "id": "q4",
+      "question": "What is the correct HTML tag for inserting an image?",
+      "options": ["<img>", "<image>", "<pic>", "<src>"],
+      "answer": "<img>",
+      "category": "Easy"
+    },
+    {
+      "id": "q5",
+      "question": "Which tag is used to define a table row in HTML?",
+      "options": ["<th>", "<tr>", "<td>", "<row>"],
+      "answer": "<tr>",
+      "category": "Easy"
+    },
+
+ 
+    {
+      "id": "q6",
+      "question": "What does CSS stand for?",
+      "options": ["Cascading Style Sheets", "Computer Style Sheets", "Creative Style System", "Colorful Style Sheets"],
+      "answer": "Cascading Style Sheets",
+      "category": "Easy"
+    },
+    {
+      "id": "q7",
+      "question": "Which HTML tag is used to include an external CSS file?",
+      "options": ["<style>", "<css>", "<link>", "<script>"],
+      "answer": "<link>",
+      "category": "Easy"
+    },
+    {
+      "id": "q8",
+      "question": "Which CSS property controls the text size?",
+      "options": ["text-style", "font-style", "text-size", "font-size"],
+      "answer": "font-size",
+      "category": "Easy"
+    },
+    {
+      "id": "q9",
+      "question": "How do you apply a background color in CSS?",
+      "options": ["color: blue;", "bgcolor: blue;", "background: blue;", "background-color: blue;"],
+      "answer": "background-color: blue;",
+      "category": "Easy"
+    },
+    {
+      "id": "q10",
+      "question": "How do you center text in CSS?",
+      "options": ["text-align: center;", "align: center;", "center-text: yes;", "text-center: true;"],
+      "answer": "text-align: center;",
+      "category": "Easy"
+    },
+
+
+    {
+      "id": "q11",
+      "question": "Inside which HTML element do we put JavaScript?",
+      "options": ["<js>", "<script>", "<javascript>", "<code>"],
+      "answer": "<script>",
+      "category": "Easy"
+    },
+    {
+      "id": "q12",
+      "question": "Which symbol is used for comments in JavaScript?",
+      "options": ["<!-- -->", "//", "**", "##"],
+      "answer": "//",
+      "category": "Easy"
+    },
+    {
+      "id": "q13",
+      "question": "How do you declare a variable in JavaScript?",
+      "options": ["var name;", "int name;", "dim name;", "declare name;"],
+      "answer": "var name;",
+      "category": "Easy"
+    },
+    {
+      "id": "q14",
+      "question": "Which function is used to display data in the console?",
+      "options": ["log()", "console.print()", "print()", "console.log()"],
+      "answer": "console.log()",
+      "category": "Easy"
+    },
+    {
+      "id": "q15",
+      "question": "Which operator is used to assign a value?",
+      "options": ["=", "==", "===", ":"],
+      "answer": "=",
+      "category": "Easy"
+    },
+
+ 
+    {
+      "id": "q16",
+      "question": "Which HTML element is used to define important text?",
+      "options": ["<important>", "<strong>", "<b>", "<highlight>"],
+      "answer": "<strong>",
+      "category": "Medium"
+    },
+    {
+      "id": "q17",
+      "question": "Which attribute is used with <input> to define a default value?",
+      "options": ["placeholder", "value", "default", "text"],
+      "answer": "value",
+      "category": "Medium"
+    },
+    {
+      "id": "q18",
+      "question": "Which element is used for unordered lists?",
+      "options": ["<ul>", "<ol>", "<li>", "<list>"],
+      "answer": "<ul>",
+      "category": "Medium"
+    },
+
+    {
+      "id": "q19",
+      "question": "How do you select an element with id='main' in CSS?",
+      "options": [".main", "#main", "*main", "main"],
+      "answer": "#main",
+      "category": "Medium"
+    },
+    {
+      "id": "q20",
+      "question": "What is the default position value in CSS?",
+      "options": ["relative", "static", "absolute", "fixed"],
+      "answer": "static",
+      "category": "Medium"
+    },
+    {
+      "id": "q21",
+      "question": "Which property is used for spacing inside an element?",
+      "options": ["margin", "padding", "border", "space"],
+      "answer": "padding",
+      "category": "Medium"
+    },
+
+ 
+    {
+      "id": "q22",
+      "question": "Which method converts JSON to an object?",
+      "options": ["JSON.stringify()", "JSON.parse()", "JSON.convert()", "JSON.decode()"],
+      "answer": "JSON.parse()",
+      "category": "Medium"
+    },
+    {
+      "id": "q23",
+      "question": "What is the output of typeof null?",
+      "options": ["null", "object", "undefined", "boolean"],
+      "answer": "object",
+      "category": "Medium"
+    },
+    {
+      "id": "q24",
+      "question": "Which keyword is used to define a constant?",
+      "options": ["const", "let", "var", "final"],
+      "answer": "const",
+      "category": "Medium"
+    },
+
+
+    {
+      "id": "q25",
+      "question": "What is the specificity of a CSS ID selector?",
+      "options": ["0,0,1,0", "1,0,0,0", "0,1,0,0", "0,0,0,1"],
+      "answer": "0,1,0,0",
+      "category": "Hard"
+    },
+    {
+      "id": "q26",
+      "question": "What is event bubbling in JavaScript?",
+      "options": [
+        "Events occurring in order",
+        "Child to parent event propagation",
+        "Event refresh",
+        "Preventing event handling"
+      ],
+      "answer": "Child to parent event propagation",
+      "category": "Hard"
+    },
+    {
+      "id": "q27",
+      "question": "Which API lets JavaScript make HTTP requests?",
+      "options": ["fetch()", "httpRequest()", "XMLHttp()", "getRequest()"],
+      "answer": "fetch()",
+      "category": "Hard"
+    },
+    {
+      "id": "q28",
+      "question": "Which property prevents flex items from shrinking?",
+      "options": ["flex-shrink", "flex-grow", "flex-wrap", "flex-basis"],
+      "answer": "flex-shrink",
+      "category": "Hard"
+    },
+    {
+      "id": "q29",
+      "question": "Which tag supports semantic layout in HTML5?",
+      "options": ["<section>", "<div>", "<span>", "<layout>"],
+      "answer": "<section>",
+      "category": "Hard"
+    },
+    {
+      "id": "q30",
+      "question": "What is a JavaScript promise?",
+      "options": [
+        "A variable storing data",
+        "A placeholder for future value",
+        "A function",
+        "A data type"
+      ],
+      "answer": "A placeholder for future value",
+      "category": "Hard"
+    }
+  ]
+}
