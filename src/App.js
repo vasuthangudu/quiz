@@ -1,4 +1,3 @@
-// Keep the imports as is...
 import React, { useEffect, useState, useRef } from "react";
 import quizFile from "./quizData.json";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -27,6 +26,19 @@ export default function App() {
   const [secondsLeft, setSecondsLeft] = useState(totalSeconds);
   const timerRef = useRef(null);
 
+  // ✅ Prevent page refresh/close during quiz
+  useEffect(() => {
+    const handleBeforeUnload = (e) => {
+      if (started && !submitted) {
+        e.preventDefault();
+        e.returnValue = "";
+      }
+    };
+    window.addEventListener("beforeunload", handleBeforeUnload);
+    return () => window.removeEventListener("beforeunload", handleBeforeUnload);
+  }, [started, submitted]);
+
+  // Quiz initialization
   useEffect(() => {
     if (!started) return;
     const cats = Object.entries(catSel).filter(([, v]) => v).map(([c]) => c);
@@ -38,6 +50,7 @@ export default function App() {
     setSecondsLeft(totalSeconds);
   }, [started, catSel, totalSeconds]);
 
+  // Timer logic
   useEffect(() => {
     if (!started || submitted || questions.length === 0) return;
     if (timerRef.current) clearInterval(timerRef.current);
@@ -56,7 +69,7 @@ export default function App() {
     return () => clearInterval(timerRef.current);
   }, [started, submitted, questions, currentIndex]);
 
-  // ✅ Updated retry logic (no page reload)
+  // Retry without reload
   const handleRetry = () => {
     setStarted(false);
     setSubmitted(false);
