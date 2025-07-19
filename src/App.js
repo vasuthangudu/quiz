@@ -1,3 +1,4 @@
+// Keep the imports as is...
 import React, { useEffect, useState, useRef } from "react";
 import quizFile from "./quizData.json";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -26,7 +27,6 @@ export default function App() {
   const [secondsLeft, setSecondsLeft] = useState(totalSeconds);
   const timerRef = useRef(null);
 
-  // Initialize quiz
   useEffect(() => {
     if (!started) return;
     const cats = Object.entries(catSel).filter(([, v]) => v).map(([c]) => c);
@@ -38,7 +38,6 @@ export default function App() {
     setSecondsLeft(totalSeconds);
   }, [started, catSel, totalSeconds]);
 
-  // Countdown
   useEffect(() => {
     if (!started || submitted || questions.length === 0) return;
     if (timerRef.current) clearInterval(timerRef.current);
@@ -57,15 +56,25 @@ export default function App() {
     return () => clearInterval(timerRef.current);
   }, [started, submitted, questions, currentIndex]);
 
-  const handleRetry = () => window.location.reload();
+  // ✅ Updated retry logic (no page reload)
+  const handleRetry = () => {
+    setStarted(false);
+    setSubmitted(false);
+    setFormVisible(true);
+    setUserData({ fullName: "", phoneNumber: "" });
+    setCatSel({ Easy: true, Medium: true, Hard: true });
+    setQuestions([]);
+    setSelected({});
+    setCurrentIndex(0);
+    setSecondsLeft(totalSeconds);
+    if (timerRef.current) clearInterval(timerRef.current);
+  };
 
   const exportPDF = () => {
     const doc = new jsPDF();
     doc.text(`Quiz Results : ${score} / ${questions.length}`, 14, 10);
     doc.text(`Name: ${userData.fullName}`, 14, 18);
     doc.text(`Phone: ${userData.phoneNumber}`, 14, 26);
-
-  
 
     const rows = questions.map((q, i) => [
       `Q${i + 1}`,
@@ -95,7 +104,6 @@ export default function App() {
     return ans ? "btn-warning" : "btn-outline-secondary";
   };
 
-  // Step 1: User Form
   if (formVisible) {
     return (
       <div className="container py-5" style={{ maxWidth: 500 }}>
@@ -111,43 +119,37 @@ export default function App() {
         </div>
         <div className="mb-3">
           <label className="form-label">Phone Number</label>
- <input
-  type="tel"
-  className="form-control"
-  value={userData.phoneNumber}
-  onChange={(e) => {
-    const val = e.target.value;
-    if (/^\d{0,10}$/.test(val)) {
-      setUserData({ ...userData, phoneNumber: val });
-    }
-  }}
-  maxLength={10}
-  placeholder="Enter 10-digit phone number"
-/>
-
-
-
-
+          <input
+            type="tel"
+            className="form-control"
+            value={userData.phoneNumber}
+            onChange={(e) => {
+              const val = e.target.value;
+              if (/^\d{0,10}$/.test(val)) {
+                setUserData({ ...userData, phoneNumber: val });
+              }
+            }}
+            maxLength={10}
+            placeholder="Enter 10-digit phone number"
+          />
         </div>
-    <button
-  className="btn btn-primary w-100"
-  onClick={() => {
-    if (userData.phoneNumber.length !== 10) {
-      alert("Phone number must be exactly 10 digits.");
-      return;
-    }
-    setFormVisible(false);
-  }}
-  disabled={!userData.fullName || !userData.phoneNumber}
->
-  Next ➡
-</button>
-
+        <button
+          className="btn btn-primary w-100"
+          onClick={() => {
+            if (userData.phoneNumber.length !== 10) {
+              alert("Phone number must be exactly 10 digits.");
+              return;
+            }
+            setFormVisible(false);
+          }}
+          disabled={!userData.fullName || !userData.phoneNumber}
+        >
+          Next ➡
+        </button>
       </div>
     );
   }
 
-  // Step 2: Category Selection
   if (!started) {
     return (
       <div className="container py-5" style={{ maxWidth: 400 }}>
@@ -175,14 +177,12 @@ export default function App() {
     );
   }
 
-  // Step 3: Quiz Screen
   const cur = questions[currentIndex];
   if (!cur) return <p className="text-center mt-4">Loading...</p>;
 
   return (
     <div className="container-fluid py-3">
       <div className="row">
-        {/* Sidebar */}
         <div className="col-md-3 border-end mb-3 mb-md-0">
           <h5 className="text-center">Questions</h5>
           <div className="d-flex flex-wrap gap-2 justify-content-center">
@@ -194,7 +194,6 @@ export default function App() {
           </div>
         </div>
 
-        {/* Main */}
         <div className="col-md-9">
           <div className="mb-2">
             <strong>Name:</strong> {userData.fullName} | <strong>Phone:</strong> {userData.phoneNumber}
