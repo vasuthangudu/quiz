@@ -5,714 +5,213 @@
   "questions": [
     {
       "id": "q1",
-      "question": "What does CSS stand for?",
-      "options": [
-        "Cascading Style Sheets",
-        "Computer Style Sheets",
-        "Creative Style System",
-        "Colorful Style Sheets"
-      ],
-      "answer": "Cascading Style Sheets",
+      "question": "Which article is used before words starting with a vowel sound?",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "an",
       "category": "Easy"
     },
     {
       "id": "q2",
-      "question": "Which HTML tag is used to link CSS?",
-      "options": [
-        "<style>",
-        "<script>",
-        "<link>",
-        "<css>"
-      ],
-      "answer": "<link>",
+      "question": "Choose the correct article: She bought ___ apple from the market.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "an",
       "category": "Easy"
     },
     {
       "id": "q3",
-      "question": "Which property is used to change text color in CSS?",
-      "options": [
-        "font-color",
-        "text-color",
-        "color",
-        "background-color"
-      ],
-      "answer": "color",
+      "question": "Choose the correct article: He is ___ honest man.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "an",
       "category": "Easy"
     },
     {
       "id": "q4",
-      "question": "How do you write a CSS comment?",
-      "options": [
-        "<!-- comment -->",
-        "// comment",
-        "/* comment */",
-        "** comment **"
-      ],
-      "answer": "/* comment */",
+      "question": "Which article is used before unique things like 'sun' or 'moon'?",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "the",
       "category": "Easy"
     },
     {
       "id": "q5",
-      "question": "Which CSS property is used to change the background color?",
-      "options": [
-        "background",
-        "color",
-        "bgcolor",
-        "background-color"
-      ],
-      "answer": "background-color",
+      "question": "Choose the correct article: I saw ___ elephant in the forest.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "an",
       "category": "Easy"
     },
     {
       "id": "q6",
-      "question": "Which property controls the text size?",
-      "options": [
-        "font-size",
-        "text-style",
-        "text-size",
-        "font-style"
-      ],
-      "answer": "font-size",
-      "category": "Easy"
+      "question": "Which article is used when we talk about something for the first time?",
+      "options": ["a/an", "the", "no article", "either a or the"],
+      "answer": "a/an",
+      "category": "Medium"
     },
     {
       "id": "q7",
-      "question": "Which property is used to make text bold?",
-      "options": [
-        "font-weight",
-        "font-bold",
-        "bold",
-        "font-style"
-      ],
-      "answer": "font-weight",
+      "question": "Choose the correct article: She wants to be ___ engineer.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "an",
       "category": "Easy"
     },
     {
       "id": "q8",
-      "question": "How do you select an element with id 'demo'?",
-      "options": [
-        "#demo",
-        ".demo",
-        "*demo",
-        "$demo"
-      ],
-      "answer": "#demo",
-      "category": "Easy"
-    },
-    {
-      "id": "q9",
-      "question": "How do you select elements with class name 'example'?",
-      "options": [
-        ".example",
-        "#example",
-        "example",
-        "*example"
-      ],
-      "answer": ".example",
-      "category": "Easy"
-    },
-    {
-      "id": "q10",
-      "question": "Which unit is NOT relative in CSS?",
-      "options": [
-        "em",
-        "rem",
-        "px",
-        "%"
-      ],
-      "answer": "px",
-      "category": "Easy"
-    },
-    {
-      "id": "q11",
-      "question": "What property is used to change the font in CSS?",
-      "options": [
-        "font-style",
-        "font-family",
-        "font-weight",
-        "font-variant"
-      ],
-      "answer": "font-family",
-      "category": "Easy"
-    },
-    {
-      "id": "q12",
-      "question": "What does 'em' unit refer to in CSS?",
-      "options": [
-        "Root font size",
-        "Current font size",
-        "Fixed size",
-        "Viewport size"
-      ],
-      "answer": "Current font size",
+      "question": "Choose the correct article: We stayed at ___ hotel near the beach.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "a",
       "category": "Medium"
     },
     {
+      "id": "q9",
+      "question": "Which article is used to refer to something already mentioned?",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "the",
+      "category": "Medium"
+    },
+    {
+      "id": "q10",
+      "question": "Choose the correct article: Mount Everest is ___ highest mountain in the world.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "the",
+      "category": "Medium"
+    },
+    {
+      "id": "q11",
+      "question": "Choose the correct article: He studies at ___ university in London.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "a",
+      "category": "Medium"
+    },
+    {
+      "id": "q12",
+      "question": "Choose the correct article: We went to see ___ Taj Mahal.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "the",
+      "category": "Easy"
+    },
+    {
       "id": "q13",
-      "question": "What is the default position value in CSS?",
-      "options": [
-        "static",
-        "relative",
-        "absolute",
-        "fixed"
-      ],
-      "answer": "static",
+      "question": "Which article is correct: He plays ___ guitar very well.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "the",
       "category": "Medium"
     },
     {
       "id": "q14",
-      "question": "How do you make a list horizontal?",
-      "options": [
-        "display: inline;",
-        "list-style: none;",
-        "float: left;",
-        "display: inline-block;"
-      ],
-      "answer": "display: inline;",
-      "category": "Medium"
+      "question": "Choose the correct article: She is reading ___ interesting book.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "an",
+      "category": "Easy"
     },
     {
       "id": "q15",
-      "question": "Which CSS property sets the spacing between letters?",
-      "options": [
-        "letter-spacing",
-        "word-spacing",
-        "line-height",
-        "text-spacing"
-      ],
-      "answer": "letter-spacing",
-      "category": "Medium"
+      "question": "Choose the correct article: The train will leave in ___ hour.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "an",
+      "category": "Easy"
     },
     {
       "id": "q16",
-      "question": "How can you make a div take the full width of its container?",
-      "options": [
-        "width: 100%",
-        "width: auto",
-        "width: fit-content",
-        "width: max-content"
-      ],
-      "answer": "width: 100%",
-      "category": "Easy"
+      "question": "Choose the correct article: We saw ___ stars in the sky.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "the",
+      "category": "Medium"
     },
     {
       "id": "q17",
-      "question": "How do you apply multiple classes to an element?",
-      "options": [
-        "class='a b'",
-        "class='a,b'",
-        "class='a+b'",
-        "class='a;b'"
-      ],
-      "answer": "class='a b'",
-      "category": "Easy"
+      "question": "Choose the correct article: He lives in ___ United States.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "the",
+      "category": "Medium"
     },
     {
       "id": "q18",
-      "question": "Which property is used to underline text?",
-      "options": [
-        "text-decoration",
-        "font-style",
-        "text-style",
-        "decoration"
-      ],
-      "answer": "text-decoration",
-      "category": "Easy"
+      "question": "Which article is not used with plural or uncountable nouns when speaking generally?",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "no article",
+      "category": "Hard"
     },
     {
       "id": "q19",
-      "question": "What does 'z-index' control?",
-      "options": [
-        "Element stacking order",
-        "Zoom level",
-        "Zebra stripe order",
-        "Z-axis rotation"
-      ],
-      "answer": "Element stacking order",
-      "category": "Medium"
+      "question": "Choose the correct article: She has ___ cat and two dogs.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "a",
+      "category": "Easy"
     },
     {
       "id": "q20",
-      "question": "Which property is used for rounded corners?",
-      "options": [
-        "border-radius",
-        "corner-radius",
-        "radius",
-        "border-corner"
-      ],
-      "answer": "border-radius",
-      "category": "Medium"
+      "question": "Choose the correct article: He works as ___ teacher in a school.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "a",
+      "category": "Easy"
     },
     {
       "id": "q21",
-      "question": "What is the use of 'box-sizing' in CSS?",
-      "options": [
-        "To include padding and border in width",
-        "To resize the box",
-        "To align boxes",
-        "To apply shadows"
-      ],
-      "answer": "To include padding and border in width",
+      "question": "Choose the correct article: They went on a trip to ___ Netherlands.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "the",
       "category": "Medium"
     },
     {
       "id": "q22",
-      "question": "What is the default value of the position property?",
-      "options": [
-        "static",
-        "relative",
-        "absolute",
-        "fixed"
-      ],
-      "answer": "static",
+      "question": "Choose the correct article: ___ Pacific Ocean is very large.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "the",
       "category": "Medium"
     },
     {
       "id": "q23",
-      "question": "How do you hide an element in CSS?",
-      "options": [
-        "display: none",
-        "visibility: hidden",
-        "opacity: 0",
-        "All of the above"
-      ],
-      "answer": "All of the above",
-      "category": "Medium"
+      "question": "Choose the correct article: He drinks ___ milk every morning.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "no article",
+      "category": "Hard"
     },
     {
       "id": "q24",
-      "question": "What value of overflow property will make a scroll bar appear?",
-      "options": [
-        "scroll",
-        "auto",
-        "visible",
-        "hidden"
-      ],
-      "answer": "scroll",
-      "category": "Medium"
+      "question": "Choose the correct article: There is ___ book on the table.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "a",
+      "category": "Easy"
     },
     {
       "id": "q25",
-      "question": "How do you center an element horizontally?",
-      "options": [
-        "margin: auto",
-        "text-align: center",
-        "transform: center",
-        "align: center"
-      ],
-      "answer": "margin: auto",
-      "category": "Medium"
+      "question": "Choose the correct article: He is one of ___ best players in the team.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "the",
+      "category": "Hard"
     },
     {
       "id": "q26",
-      "question": "Which property is used to set the line spacing?",
-      "options": [
-        "line-height",
-        "line-spacing",
-        "spacing",
-        "text-spacing"
-      ],
-      "answer": "line-height",
-      "category": "Easy"
+      "question": "Choose the correct article: We went to ___ cinema last night.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "the",
+      "category": "Medium"
     },
     {
       "id": "q27",
-      "question": "Which property is used to change the font style to italic?",
-      "options": [
-        "font-style",
-        "font-variant",
-        "font-weight",
-        "font-type"
-      ],
-      "answer": "font-style",
-      "category": "Easy"
+      "question": "Choose the correct article: She lives near ___ airport.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "an",
+      "category": "Medium"
     },
     {
       "id": "q28",
-      "question": "What does 'opacity: 0' do?",
-      "options": [
-        "Makes the element invisible",
-        "Removes the element",
-        "Adds transparency",
-        "Reduces size"
-      ],
-      "answer": "Makes the element invisible",
+      "question": "Choose the correct article: The teacher explained ___ importance of discipline.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "the",
       "category": "Medium"
     },
     {
       "id": "q29",
-      "question": "Which selector targets all paragraph elements?",
-      "options": [
-        "p",
-        ".p",
-        "#p",
-        "*p"
-      ],
-      "answer": "p",
+      "question": "Choose the correct article: We met ___ old man who told us a story.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "an",
       "category": "Easy"
     },
     {
       "id": "q30",
-      "question": "What is the difference between 'visibility: hidden' and 'display: none'?",
-      "options": [
-        "One hides, other removes from layout",
-        "No difference",
-        "One changes opacity",
-        "One hides for mobile"
-      ],
-      "answer": "One hides, other removes from layout",
-      "category": "Hard"
-    },
-    {
-      "id": "q31",
-      "question": "How to apply styles to all <p> elements inside a <div>?",
-      "options": [
-        "div p",
-        "div.p",
-        "div > p",
-        ".div p"
-      ],
-      "answer": "div p",
+      "question": "Choose the correct article: She visited ___ Eiffel Tower when she was in Paris.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": "the",
       "category": "Medium"
-    },
-    {
-      "id": "q32",
-      "question": "What pseudo-class selects the first child?",
-      "options": [
-        ":first-child",
-        ":first",
-        "::first-child",
-        ":nth-child(1)"
-      ],
-      "answer": ":first-child",
-      "category": "Medium"
-    },
-    {
-      "id": "q33",
-      "question": "How to apply a hover effect?",
-      "options": [
-        "a:hover",
-        "a.hover",
-        "a::hover",
-        "hover(a)"
-      ],
-      "answer": "a:hover",
-      "category": "Medium"
-    },
-    {
-      "id": "q34",
-      "question": "What is the value for a transparent background?",
-      "options": [
-        "transparent",
-        "none",
-        "invisible",
-        "opacity(0)"
-      ],
-      "answer": "transparent",
-      "category": "Easy"
-    },
-    {
-      "id": "q35",
-      "question": "Which property is used to add shadow to text?",
-      "options": [
-        "text-shadow",
-        "shadow",
-        "box-shadow",
-        "text-outline"
-      ],
-      "answer": "text-shadow",
-      "category": "Medium"
-    },
-    {
-      "id": "q36",
-      "question": "Which property controls element layout direction?",
-      "options": [
-        "flex-direction",
-        "direction",
-        "layout",
-        "flow"
-      ],
-      "answer": "flex-direction",
-      "category": "Medium"
-    },
-    {
-      "id": "q37",
-      "question": "Which value of display creates a flex container?",
-      "options": [
-        "flex",
-        "block",
-        "inline-flex",
-        "grid"
-      ],
-      "answer": "flex",
-      "category": "Medium"
-    },
-    {
-      "id": "q38",
-      "question": "What does the 'position: absolute' mean?",
-      "options": [
-        "Relative to nearest positioned ancestor",
-        "Relative to document",
-        "Stays fixed",
-        "Follows page flow"
-      ],
-      "answer": "Relative to nearest positioned ancestor",
-      "category": "Hard"
-    },
-    {
-      "id": "q39",
-      "question": "What is the use of '!important' in CSS?",
-      "options": [
-        "Overrides all rules",
-        "Applies style globally",
-        "Ignores specificity",
-        "Makes a class active"
-      ],
-      "answer": "Overrides all rules",
-      "category": "Hard"
-    },
-    {
-      "id": "q40",
-      "question": "What does 'inherit' do in CSS?",
-      "options": [
-        "Takes value from parent",
-        "Disables style",
-        "Sets default",
-        "Creates new property"
-      ],
-      "answer": "Takes value from parent",
-      "category": "Hard"
-    },
-    {
-      "id": "q41",
-      "question": "Which shorthand property sets margin on all sides?",
-      "options": [
-        "margin",
-        "padding",
-        "border",
-        "spacing"
-      ],
-      "answer": "margin",
-      "category": "Easy"
-    },
-    {
-      "id": "q42",
-      "question": "Which property defines transition effect?",
-      "options": [
-        "transition",
-        "animation",
-        "effect",
-        "transform"
-      ],
-      "answer": "transition",
-      "category": "Medium"
-    },
-    {
-      "id": "q43",
-      "question": "Which is not a valid value of display?",
-      "options": [
-        "hide",
-        "flex",
-        "inline",
-        "block"
-      ],
-      "answer": "hide",
-      "category": "Easy"
-    },
-    {
-      "id": "q44",
-      "question": "Which media query keyword targets screens?",
-      "options": [
-        "screen",
-        "device",
-        "monitor",
-        "view"
-      ],
-      "answer": "screen",
-      "category": "Medium"
-    },
-    {
-      "id": "q45",
-      "question": "Which property resizes text to fit its container?",
-      "options": [
-        "font-size: fit-content",
-        "text-fit",
-        "font-resize",
-        "There is no such property"
-      ],
-      "answer": "There is no such property",
-      "category": "Hard"
-    },
-    {
-      "id": "q46",
-      "question": "What does 'min-width' control?",
-      "options": [
-        "Minimum width an element can shrink",
-        "Maximum width",
-        "View width",
-        "None"
-      ],
-      "answer": "Minimum width an element can shrink",
-      "category": "Medium"
-    },
-    {
-      "id": "q47",
-      "question": "Which CSS rule defines keyframes in animation?",
-      "options": [
-        "@keyframes",
-        "@animation",
-        "@motion",
-        "@frames"
-      ],
-      "answer": "@keyframes",
-      "category": "Hard"
-    },
-    {
-      "id": "q48",
-      "question": "How do you animate an element?",
-      "options": [
-        "Using @keyframes and animation",
-        "Using animation only",
-        "Using transition only",
-        "Using keyframe only"
-      ],
-      "answer": "Using @keyframes and animation",
-      "category": "Hard"
-    },
-    {
-      "id": "q49",
-      "question": "Which CSS property sets shadow to a box?",
-      "options": [
-        "box-shadow",
-        "shadow-box",
-        "border-shadow",
-        "box-outline"
-      ],
-      "answer": "box-shadow",
-      "category": "Medium"
-    },
-    {
-      "id": "q50",
-      "question": "What does 'flex-wrap' control?",
-      "options": [
-        "Line wrapping in flex",
-        "Text wrapping",
-        "Box wrapping",
-        "Content wrap"
-      ],
-      "answer": "Line wrapping in flex",
-      "category": "Medium"
-    },
-    {
-      "id": "q51",
-      "question": "How do you align items vertically in flexbox?",
-      "options": [
-        "align-items",
-        "justify-items",
-        "flex-direction",
-        "item-align"
-      ],
-      "answer": "align-items",
-      "category": "Medium"
-    },
-    {
-      "id": "q52",
-      "question": "Which value of position sticks the element on scroll?",
-      "options": [
-        "sticky",
-        "fixed",
-        "absolute",
-        "relative"
-      ],
-      "answer": "sticky",
-      "category": "Hard"
-    },
-    {
-      "id": "q53",
-      "question": "What is the use of 'calc()' function in CSS?",
-      "options": [
-        "Perform calculations",
-        "Set percentage",
-        "Control media",
-        "Apply variables"
-      ],
-      "answer": "Perform calculations",
-      "category": "Hard"
-    },
-    {
-      "id": "q54",
-      "question": "What is the CSS variable syntax?",
-      "options": [
-        "--var-name",
-        "$var-name",
-        "@var-name",
-        "var--name"
-      ],
-      "answer": "--var-name",
-      "category": "Hard"
-    },
-    {
-      "id": "q55",
-      "question": "How do you use a CSS variable?",
-      "options": [
-        "var(--var-name)",
-        "use(--var-name)",
-        "$(--var-name)",
-        "@(--var-name)"
-      ],
-      "answer": "var(--var-name)",
-      "category": "Hard"
-    },
-    {
-      "id": "q56",
-      "question": "What does the :root selector target?",
-      "options": [
-        "HTML root",
-        "Body element",
-        "First element",
-        "All elements"
-      ],
-      "answer": "HTML root",
-      "category": "Hard"
-    },
-    {
-      "id": "q57",
-      "question": "How to reset all CSS styles?",
-      "options": [
-        "* { margin: 0; padding: 0; }",
-        "* { reset: all; }",
-        "reset();",
-        "html { clear: true; }"
-      ],
-      "answer": "* { margin: 0; padding: 0; }",
-      "category": "Hard"
-    },
-      {
-    "id": "q58",
-    "question": "Which CSS property is used to make text italic?",
-    "options": ["font-style", "font-weight", "text-decoration", "font-variant"],
-    "answer": "font-style",
-    "category": "Easy"
-  },
-  {
-    "id": "q59",
-    "question": "Which CSS unit is relative to the root element’s font size?",
-    "options": ["em", "rem", "px", "%"],
-    "answer": "rem",
-    "category": "Medium"
-  },
-  {
-    "id": "q60",
-    "question": "How to reset all CSS styles?",
-    "options": [
-      "* { margin: 0; padding: 0; }",
-      "* { reset: all; }",
-      "reset();",
-      "html { clear: true; }"
-    ],
-    "answer": "* { margin: 0; padding: 0; }",
-    "category": "Hard"
-  }
-    
+    }
   ]
 }
