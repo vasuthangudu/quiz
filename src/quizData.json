@@ -5,213 +5,213 @@
   "questions": [
     {
       "id": "q1",
-      "question": "Which article is used before words starting with a vowel sound?",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "an",
+      "question": "Which database is commonly used in the MERN stack?",
+      "options": ["MySQL", "PostgreSQL", "MongoDB", "SQLite"],
+      "answer": "MongoDB",
       "category": "Easy"
     },
     {
       "id": "q2",
-      "question": "Choose the correct article: She bought ___ apple from the market.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "an",
+      "question": "What does the 'E' in MERN stack stand for?",
+      "options": ["Express.js", "ECMAScript", "Electron", "Elasticsearch"],
+      "answer": "Express.js",
       "category": "Easy"
     },
     {
       "id": "q3",
-      "question": "Choose the correct article: He is ___ honest man.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "an",
+      "question": "Which MERN component is used for building the user interface?",
+      "options": ["MongoDB", "Express.js", "React.js", "Node.js"],
+      "answer": "React.js",
       "category": "Easy"
     },
     {
       "id": "q4",
-      "question": "Which article is used before unique things like 'sun' or 'moon'?",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "the",
+      "question": "Which MERN component runs JavaScript on the server side?",
+      "options": ["React.js", "Node.js", "Express.js", "MongoDB"],
+      "answer": "Node.js",
       "category": "Easy"
     },
     {
       "id": "q5",
-      "question": "Choose the correct article: I saw ___ elephant in the forest.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "an",
+      "question": "Which of the following is a NoSQL database?",
+      "options": ["MySQL", "MongoDB", "Oracle", "PostgreSQL"],
+      "answer": "MongoDB",
       "category": "Easy"
     },
     {
       "id": "q6",
-      "question": "Which article is used when we talk about something for the first time?",
-      "options": ["a/an", "the", "no article", "either a or the"],
-      "answer": "a/an",
+      "question": "Which of the following is used to define REST APIs in MERN?",
+      "options": ["React.js", "Express.js", "MongoDB", "Node CLI"],
+      "answer": "Express.js",
       "category": "Medium"
     },
     {
       "id": "q7",
-      "question": "Choose the correct article: She wants to be ___ engineer.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "an",
+      "question": "Which command is used to start a new React project?",
+      "options": ["npx create-react-app myApp", "npm init react-app", "node create myApp", "react new app"],
+      "answer": "npx create-react-app myApp",
       "category": "Easy"
     },
     {
       "id": "q8",
-      "question": "Choose the correct article: We stayed at ___ hotel near the beach.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "a",
-      "category": "Medium"
+      "question": "Which HTTP method is generally used to fetch data from an API?",
+      "options": ["POST", "PUT", "GET", "DELETE"],
+      "answer": "GET",
+      "category": "Easy"
     },
     {
       "id": "q9",
-      "question": "Which article is used to refer to something already mentioned?",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "the",
+      "question": "Which method is used in MongoDB to insert one document?",
+      "options": ["insert()", "insertOne()", "addOne()", "create()"],
+      "answer": "insertOne()",
       "category": "Medium"
     },
     {
       "id": "q10",
-      "question": "Choose the correct article: Mount Everest is ___ highest mountain in the world.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "the",
+      "question": "Which hook is used in React to handle side effects?",
+      "options": ["useState", "useContext", "useEffect", "useReducer"],
+      "answer": "useEffect",
       "category": "Medium"
     },
     {
       "id": "q11",
-      "question": "Choose the correct article: He studies at ___ university in London.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "a",
-      "category": "Medium"
-    },
-    {
-      "id": "q12",
-      "question": "Choose the correct article: We went to see ___ Taj Mahal.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "the",
+      "question": "Which of the following is true about Node.js?",
+      "options": ["It is a frontend library", "It is a runtime for JavaScript", "It is a database", "It is only for React"],
+      "answer": "It is a runtime for JavaScript",
       "category": "Easy"
     },
     {
+      "id": "q12",
+      "question": "Which operator is used in MongoDB queries for pattern matching?",
+      "options": ["$", "%", "/", "regex"],
+      "answer": "regex",
+      "category": "Medium"
+    },
+    {
       "id": "q13",
-      "question": "Which article is correct: He plays ___ guitar very well.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "the",
+      "question": "Which function in Express is used to handle middleware?",
+      "options": ["app.listen()", "app.use()", "app.get()", "app.post()"],
+      "answer": "app.use()",
       "category": "Medium"
     },
     {
       "id": "q14",
-      "question": "Choose the correct article: She is reading ___ interesting book.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "an",
-      "category": "Easy"
-    },
-    {
-      "id": "q15",
-      "question": "Choose the correct article: The train will leave in ___ hour.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "an",
-      "category": "Easy"
-    },
-    {
-      "id": "q16",
-      "question": "Choose the correct article: We saw ___ stars in the sky.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "the",
+      "question": "Which state management library is commonly used with React?",
+      "options": ["Redux", "Express", "Axios", "Mongoose"],
+      "answer": "Redux",
       "category": "Medium"
     },
     {
+      "id": "q15",
+      "question": "Which method is used in MongoDB to update multiple documents?",
+      "options": ["update()", "updateOne()", "updateMany()", "modifyMany()"],
+      "answer": "updateMany()",
+      "category": "Medium"
+    },
+    {
+      "id": "q16",
+      "question": "Which of the following is not part of MERN stack?",
+      "options": ["MongoDB", "React.js", "Node.js", "Angular"],
+      "answer": "Angular",
+      "category": "Easy"
+    },
+    {
       "id": "q17",
-      "question": "Choose the correct article: He lives in ___ United States.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "the",
+      "question": "Which middleware in Express parses incoming JSON requests?",
+      "options": ["express.json()", "express.urlencoded()", "bodyParser()", "express.static()"],
+      "answer": "express.json()",
       "category": "Medium"
     },
     {
       "id": "q18",
-      "question": "Which article is not used with plural or uncountable nouns when speaking generally?",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "no article",
-      "category": "Hard"
-    },
-    {
-      "id": "q19",
-      "question": "Choose the correct article: She has ___ cat and two dogs.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "a",
+      "question": "Which React hook is used to manage state?",
+      "options": ["useState", "useEffect", "useReducer", "useRef"],
+      "answer": "useState",
       "category": "Easy"
     },
     {
+      "id": "q19",
+      "question": "Which of the following is an ODM for MongoDB in Node.js?",
+      "options": ["Sequelize", "Mongoose", "TypeORM", "Knex"],
+      "answer": "Mongoose",
+      "category": "Medium"
+    },
+    {
       "id": "q20",
-      "question": "Choose the correct article: He works as ___ teacher in a school.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "a",
+      "question": "Which HTTP status code represents 'Resource Not Found'?",
+      "options": ["200", "201", "404", "500"],
+      "answer": "404",
       "category": "Easy"
     },
     {
       "id": "q21",
-      "question": "Choose the correct article: They went on a trip to ___ Netherlands.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "the",
+      "question": "Which React method is used to render UI elements?",
+      "options": ["render()", "display()", "show()", "return()"],
+      "answer": "render()",
       "category": "Medium"
     },
     {
       "id": "q22",
-      "question": "Choose the correct article: ___ Pacific Ocean is very large.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "the",
+      "question": "Which method is used in Express to define a route?",
+      "options": ["app.get()", "app.route()", "app.path()", "app.send()"],
+      "answer": "app.get()",
       "category": "Medium"
     },
     {
       "id": "q23",
-      "question": "Choose the correct article: He drinks ___ milk every morning.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "no article",
+      "question": "Which MongoDB command shows all databases?",
+      "options": ["show databases", "list dbs", "db.show()", "db.list()"],
+      "answer": "show databases",
       "category": "Hard"
     },
     {
       "id": "q24",
-      "question": "Choose the correct article: There is ___ book on the table.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "a",
+      "question": "Which of these is a package manager for Node.js?",
+      "options": ["npm", "pip", "gradle", "maven"],
+      "answer": "npm",
       "category": "Easy"
     },
     {
       "id": "q25",
-      "question": "Choose the correct article: He is one of ___ best players in the team.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "the",
+      "question": "Which lifecycle method in React is called after the component mounts?",
+      "options": ["componentDidMount", "componentWillMount", "render", "shouldComponentUpdate"],
+      "answer": "componentDidMount",
       "category": "Hard"
     },
     {
       "id": "q26",
-      "question": "Choose the correct article: We went to ___ cinema last night.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "the",
-      "category": "Medium"
+      "question": "Which command is used to start a Node.js server?",
+      "options": ["npm start", "node server.js", "node start app", "start node app"],
+      "answer": "node server.js",
+      "category": "Easy"
     },
     {
       "id": "q27",
-      "question": "Choose the correct article: She lives near ___ airport.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "an",
-      "category": "Medium"
+      "question": "Which of the following is true about Express.js?",
+      "options": ["It is a database", "It is a frontend library", "It is a web framework for Node.js", "It is a React plugin"],
+      "answer": "It is a web framework for Node.js",
+      "category": "Easy"
     },
     {
       "id": "q28",
-      "question": "Choose the correct article: The teacher explained ___ importance of discipline.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "the",
+      "question": "Which MongoDB method is used to remove documents?",
+      "options": ["delete()", "remove()", "deleteOne()", "deleteMany()"],
+      "answer": "deleteMany()",
       "category": "Medium"
     },
     {
       "id": "q29",
-      "question": "Choose the correct article: We met ___ old man who told us a story.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "an",
+      "question": "Which keyword is used in React to pass data from parent to child?",
+      "options": ["props", "state", "context", "dispatch"],
+      "answer": "props",
       "category": "Easy"
     },
     {
       "id": "q30",
-      "question": "Choose the correct article: She visited ___ Eiffel Tower when she was in Paris.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": "the",
-      "category": "Medium"
+      "question": "Which of these is a benefit of MERN stack?",
+      "options": ["Different languages for frontend and backend", "Single language JavaScript across stack", "SQL-based database", "Compiled server-side code"],
+      "answer": "Single language JavaScript across stack",
+      "category": "Hard"
     }
   ]
 }
