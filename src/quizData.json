@@ -212,6 +212,146 @@
       "options": ["Different languages for frontend and backend", "Single language JavaScript across stack", "SQL-based database", "Compiled server-side code"],
       "answer": "Single language JavaScript across stack",
       "category": "Hard"
+    },
+    {
+      "id": "q31",
+      "question": "Which React hook is used to access context values?",
+      "options": ["useEffect", "useState", "useContext", "useReducer"],
+      "answer": "useContext",
+      "category": "Medium"
+    },
+    {
+      "id": "q32",
+      "question": "Which command is used to install dependencies listed in package.json?",
+      "options": ["npm install", "npm run", "npm build", "npm start"],
+      "answer": "npm install",
+      "category": "Easy"
+    },
+    {
+      "id": "q33",
+      "question": "Which MongoDB method retrieves all documents from a collection?",
+      "options": ["find()", "findAll()", "getAll()", "fetch()"],
+      "answer": "find()",
+      "category": "Medium"
+    },
+    {
+      "id": "q34",
+      "question": "Which HTTP status code represents 'Internal Server Error'?",
+      "options": ["200", "400", "404", "500"],
+      "answer": "500",
+      "category": "Easy"
+    },
+    {
+      "id": "q35",
+      "question": "Which Express method listens for incoming connections?",
+      "options": ["app.listen()", "app.connect()", "app.run()", "app.start()"],
+      "answer": "app.listen()",
+      "category": "Medium"
+    },
+    {
+      "id": "q36",
+      "question": "Which React feature helps in breaking UI into reusable pieces?",
+      "options": ["Components", "Hooks", "States", "Props"],
+      "answer": "Components",
+      "category": "Easy"
+    },
+    {
+      "id": "q37",
+      "question": "Which keyword is used to declare a constant in JavaScript?",
+      "options": ["var", "let", "const", "static"],
+      "answer": "const",
+      "category": "Easy"
+    },
+    {
+      "id": "q38",
+      "question": "Which MongoDB method is used to count documents?",
+      "options": ["count()", "countDocuments()", "getCount()", "length()"],
+      "answer": "countDocuments()",
+      "category": "Medium"
+    },
+    {
+      "id": "q39",
+      "question": "Which package is commonly used to make HTTP requests in React?",
+      "options": ["Mongoose", "Axios", "Express", "Redux"],
+      "answer": "Axios",
+      "category": "Easy"
+    },
+    {
+      "id": "q40",
+      "question": "Which Node.js module is used to work with file system?",
+      "options": ["os", "fs", "http", "path"],
+      "answer": "fs",
+      "category": "Medium"
+    },
+    {
+      "id": "q41",
+      "question": "Which method in React is used to update state?",
+      "options": ["setState()", "update()", "changeState()", "modifyState()"],
+      "answer": "setState()",
+      "category": "Medium"
+    },
+    {
+      "id": "q42",
+      "question": "Which MongoDB method is used to sort documents?",
+      "options": ["order()", "sort()", "arrange()", "filter()"],
+      "answer": "sort()",
+      "category": "Medium"
+    },
+    {
+      "id": "q43",
+      "question": "Which of the following is a template engine used with Express?",
+      "options": ["EJS", "Axios", "Mongoose", "Babel"],
+      "answer": "EJS",
+      "category": "Medium"
+    },
+    {
+      "id": "q44",
+      "question": "Which React hook is used to reference DOM elements?",
+      "options": ["useState", "useEffect", "useRef", "useMemo"],
+      "answer": "useRef",
+      "category": "Medium"
+    },
+    {
+      "id": "q45",
+      "question": "Which Node.js module is used to create a server?",
+      "options": ["http", "fs", "url", "path"],
+      "answer": "http",
+      "category": "Medium"
+    },
+    {
+      "id": "q46",
+      "question": "Which MongoDB method is used to delete a single document?",
+      "options": ["delete()", "deleteOne()", "removeOne()", "drop()"],
+      "answer": "deleteOne()",
+      "category": "Medium"
+    },
+    {
+      "id": "q47",
+      "question": "Which tool is used to transpile modern JavaScript for browser compatibility?",
+      "options": ["Webpack", "Babel", "Parcel", "ESLint"],
+      "answer": "Babel",
+      "category": "Hard"
+    },
+    {
+      "id": "q48",
+      "question": "Which method is used in Express to handle POST requests?",
+      "options": ["app.get()", "app.post()", "app.send()", "app.put()"],
+      "answer": "app.post()",
+      "category": "Medium"
+    },
+    {
+      "id": "q49",
+      "question": "Which React hook is used to optimize expensive calculations?",
+      "options": ["useRef", "useMemo", "useEffect", "useContext"],
+      "answer": "useMemo",
+      "category": "Hard"
+    },
+    {
+      "id": "q50",
+      "question": "Which MongoDB method drops a collection?",
+      "options": ["drop()", "deleteCollection()", "removeAll()", "clear()"],
+      "answer": "drop()",
+      "category": "Hard"
     }
   ]
 }
