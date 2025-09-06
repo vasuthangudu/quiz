@@ -1,216 +1,216 @@
 {
   "settings": {
-    "totalTime": "00:20:00"
+    "totalTime": "00:25:00"
   },
   "questions": [
     {
       "id": "q1",
-      "question": "What does MERN stand for?",
-      "options": ["MongoDB, Express, React, Node.js", "MySQL, Express, React, Node.js", "MongoDB, Ember, Redux, Node.js", "MongoDB, Express, Redux, Next.js"],
-      "answer": "MongoDB, Express, React, Node.js",
+      "question": "Which language is primarily used in MERN stack development?",
+      "options": ["Python", "Java", "JavaScript", "C#"],
+      "answer": "JavaScript",
       "category": "Easy"
     },
     {
       "id": "q2",
-      "question": "Which database is used in the MERN stack?",
-      "options": ["MySQL", "MongoDB", "PostgreSQL", "SQLite"],
-      "answer": "MongoDB",
+      "question": "Which package manager is commonly used with Node.js?",
+      "options": ["pip", "composer", "npm", "gradle"],
+      "answer": "npm",
       "category": "Easy"
     },
     {
       "id": "q3",
-      "question": "Which part of the MERN stack is used for building the front-end?",
-      "options": ["Node.js", "Express.js", "React.js", "MongoDB"],
-      "answer": "React.js",
+      "question": "Which React hook is used to access context values?",
+      "options": ["useState", "useEffect", "useContext", "useMemo"],
+      "answer": "useContext",
       "category": "Easy"
     },
     {
       "id": "q4",
-      "question": "Which MERN component is responsible for server-side logic?",
-      "options": ["React", "MongoDB", "Express", "Redux"],
-      "answer": "Express",
+      "question": "Which command creates a new React app?",
+      "options": ["npx create-react-app appname", "npm install react-app", "react new appname", "npm start react"],
+      "answer": "npx create-react-app appname",
       "category": "Easy"
     },
     {
       "id": "q5",
-      "question": "Which of the following is a NoSQL database?",
-      "options": ["MongoDB", "MySQL", "PostgreSQL", "Oracle"],
-      "answer": "MongoDB",
+      "question": "Which HTTP method is used to delete data in REST API?",
+      "options": ["GET", "POST", "DELETE", "PUT"],
+      "answer": "DELETE",
       "category": "Easy"
     },
     {
       "id": "q6",
-      "question": "Which JavaScript runtime is used in MERN?",
-      "options": ["Deno", "Node.js", "Bun", "V8 only"],
-      "answer": "Node.js",
+      "question": "Which command starts a Node.js application?",
+      "options": ["node app.js", "start app.js", "npm node app.js", "run node"],
+      "answer": "node app.js",
       "category": "Easy"
     },
     {
       "id": "q7",
-      "question": "What is the default port for MongoDB?",
-      "options": ["27017", "8080", "3000", "5432"],
-      "answer": "27017",
+      "question": "Which library is used for state management in React?",
+      "options": ["Redux", "Axios", "Bootstrap", "jQuery"],
+      "answer": "Redux",
       "category": "Easy"
     },
     {
       "id": "q8",
-      "question": "Which method is used to fetch data in React?",
-      "options": ["useState", "useEffect", "fetch API / Axios", "setInterval"],
-      "answer": "fetch API / Axios",
+      "question": "Which extension is used for React components?",
+      "options": [".java", ".jsx", ".ts", ".html"],
+      "answer": ".jsx",
       "category": "Easy"
     },
     {
       "id": "q9",
-      "question": "Which hook is commonly used to manage component state in React?",
-      "options": ["useContext", "useEffect", "useState", "useReducer"],
-      "answer": "useState",
-      "category": "Easy"
+      "question": "Which operator is used in MongoDB to match multiple conditions?",
+      "options": ["$and", "$if", "$cond", "$where"],
+      "answer": "$and",
+      "category": "Medium"
     },
     {
       "id": "q10",
-      "question": "Which HTTP method is used to update existing data in REST API?",
-      "options": ["GET", "POST", "PUT/PATCH", "DELETE"],
-      "answer": "PUT/PATCH",
-      "category": "Easy"
+      "question": "Which function in Mongoose is used to define a schema?",
+      "options": ["mongoose.Schema()", "mongoose.Model()", "mongoose.connect()", "mongoose.create()"],
+      "answer": "mongoose.Schema()",
+      "category": "Medium"
     },
     {
       "id": "q11",
-      "question": "In Express.js, which method is used to define a GET route?",
-      "options": ["app.route()", "app.use()", "app.get()", "app.fetch()"],
-      "answer": "app.get()",
+      "question": "Which lifecycle method is called once after the component mounts in class components?",
+      "options": ["componentDidUpdate", "componentWillUnmount", "componentDidMount", "render"],
+      "answer": "componentDidMount",
       "category": "Medium"
     },
     {
       "id": "q12",
-      "question": "Which tool is commonly used to manage MongoDB databases?",
-      "options": ["pgAdmin", "MongoDB Compass", "MySQL Workbench", "RoboMySQL"],
-      "answer": "MongoDB Compass",
+      "question": "Which command is used to install dependencies from package.json?",
+      "options": ["npm start", "npm install", "npm run build", "npm update"],
+      "answer": "npm install",
       "category": "Medium"
     },
     {
       "id": "q13",
-      "question": "Which library is commonly used for routing in React?",
-      "options": ["React-Redux", "React-Router", "Next.js", "Axios"],
-      "answer": "React-Router",
+      "question": "Which React hook is used to optimize performance by memoizing values?",
+      "options": ["useState", "useEffect", "useMemo", "useRef"],
+      "answer": "useMemo",
       "category": "Medium"
     },
     {
       "id": "q14",
-      "question": "Which keyword is used to make asynchronous calls in Node.js?",
-      "options": ["await", "sync", "yield", "asyncCall"],
-      "answer": "await",
+      "question": "Which MongoDB method retrieves all documents from a collection?",
+      "options": ["find()", "getAll()", "fetch()", "query()"],
+      "answer": "find()",
       "category": "Medium"
     },
     {
       "id": "q15",
-      "question": "Which of the following is a schema-less database?",
-      "options": ["MongoDB", "MySQL", "Oracle", "PostgreSQL"],
-      "answer": "MongoDB",
+      "question": "Which Node.js module is used for working with file system?",
+      "options": ["http", "fs", "os", "events"],
+      "answer": "fs",
       "category": "Medium"
     },
     {
       "id": "q16",
-      "question": "In MERN, JWT is commonly used for?",
-      "options": ["Data storage", "Authentication", "Database indexing", "UI design"],
-      "answer": "Authentication",
+      "question": "Which command is used to start MongoDB service locally?",
+      "options": ["mongod", "mongo start", "db.start()", "start-mongo"],
+      "answer": "mongod",
       "category": "Medium"
     },
     {
       "id": "q17",
-      "question": "Which function is used to connect MongoDB in Node.js?",
-      "options": ["mongoose.connect()", "mongo.init()", "db.connect()", "express.mongo()"],
-      "answer": "mongoose.connect()",
+      "question": "Which CSS framework is often used with React for styling?",
+      "options": ["Bootstrap", "Django", "Spring", "Hibernate"],
+      "answer": "Bootstrap",
       "category": "Medium"
     },
     {
       "id": "q18",
-      "question": "Which of the following is NOT part of MERN stack?",
-      "options": ["MongoDB", "Express", "Angular", "React"],
-      "answer": "Angular",
+      "question": "Which React hook gives access to DOM elements directly?",
+      "options": ["useMemo", "useEffect", "useState", "useRef"],
+      "answer": "useRef",
       "category": "Medium"
     },
     {
       "id": "q19",
-      "question": "Which operator is used in MongoDB queries to filter by conditions?",
-      "options": ["$", "#", "@", "%"],
-      "answer": "$",
+      "question": "Which Node.js framework is most commonly used for APIs?",
+      "options": ["Express", "NestJS", "Koa", "Sails"],
+      "answer": "Express",
       "category": "Medium"
     },
     {
       "id": "q20",
-      "question": "Which React hook is used for side effects?",
-      "options": ["useEffect", "useState", "useReducer", "useMemo"],
-      "answer": "useEffect",
+      "question": "Which MongoDB method updates multiple documents?",
+      "options": ["update()", "updateMany()", "updateOne()", "modifyAll()"],
+      "answer": "updateMany()",
       "category": "Medium"
     },
     {
       "id": "q21",
-      "question": "Which middleware is commonly used in Express to parse JSON?",
-      "options": ["express.static()", "express.json()", "express.urlencoded()", "express.body()"],
-      "answer": "express.json()",
+      "question": "Which method in React is used to handle forms?",
+      "options": ["onSubmit", "onClick", "onChange", "onInput"],
+      "answer": "onSubmit",
       "category": "Medium"
     },
     {
       "id": "q22",
-      "question": "Which design pattern is followed in MERN applications?",
-      "options": ["MVC (Model-View-Controller)", "Singleton", "Factory", "Observer"],
-      "answer": "MVC (Model-View-Controller)",
+      "question": "Which database command shows all databases in MongoDB?",
+      "options": ["show dbs", "list databases", "db.show()", "get databases"],
+      "answer": "show dbs",
       "category": "Medium"
     },
     {
       "id": "q23",
-      "question": "Which React feature allows reusing UI components?",
-      "options": ["Hooks", "Components", "Redux", "Context API"],
-      "answer": "Components",
+      "question": "Which React feature helps improve rendering by assigning keys?",
+      "options": ["Fragments", "Keys", "Refs", "Props"],
+      "answer": "Keys",
       "category": "Medium"
     },
     {
       "id": "q24",
-      "question": "Which MongoDB command is used to insert one document?",
-      "options": ["db.insertOne()", "db.add()", "db.create()", "db.putOne()"],
-      "answer": "db.insertOne()",
+      "question": "Which command removes a Node.js dependency?",
+      "options": ["npm delete", "npm uninstall", "npm remove", "npm stop"],
+      "answer": "npm uninstall",
       "category": "Medium"
     },
     {
       "id": "q25",
-      "question": "Which Node.js module is used to create a server?",
-      "options": ["http", "net", "fs", "url"],
-      "answer": "http",
+      "question": "Which event loop concept allows Node.js to handle async operations?",
+      "options": ["Callbacks", "Threads", "Event Loop", "Processes"],
+      "answer": "Event Loop",
       "category": "Hard"
     },
     {
       "id": "q26",
-      "question": "Which method in React is used to update the UI after state changes?",
-      "options": ["render()", "componentDidMount()", "setState()", "forceUpdate()"],
-      "answer": "setState()",
+      "question": "Which HTTP status code represents a successful request?",
+      "options": ["200", "404", "500", "301"],
+      "answer": "200",
       "category": "Hard"
     },
     {
       "id": "q27",
-      "question": "Which command is used to start a React application?",
-      "options": ["npm start", "npm run dev", "npm serve", "react run"],
-      "answer": "npm start",
+      "question": "Which MongoDB command drops a collection?",
+      "options": ["db.drop()", "db.removeCollection()", "db.collection.drop()", "db.clear()"],
+      "answer": "db.collection.drop()",
       "category": "Hard"
     },
     {
       "id": "q28",
-      "question": "In MongoDB, which data format is used to store documents?",
-      "options": ["JSON", "BSON", "XML", "CSV"],
-      "answer": "BSON",
+      "question": "Which function in React prevents default browser behavior?",
+      "options": ["stopDefault()", "preventDefault()", "stopEvent()", "cancelDefault()"],
+      "answer": "preventDefault()",
       "category": "Hard"
     },
     {
       "id": "q29",
-      "question": "Which function in Express is used as error-handling middleware?",
-      "options": ["next(err)", "catch()", "handleError()", "tryError()"],
-      "answer": "next(err)",
+      "question": "Which React feature is used to pass data from parent to child?",
+      "options": ["State", "Props", "Hooks", "Refs"],
+      "answer": "Props",
       "category": "Hard"
     },
     {
       "id": "q30",
-      "question": "Which package is commonly used for managing environment variables in Node.js?",
-      "options": ["dotenv", "config", "envify", "process-env"],
-      "answer": "dotenv",
+      "question": "Which command is used to build a production-ready React app?",
+      "options": ["npm run build", "npm run prod", "npm build", "react build"],
+      "answer": "npm run build",
       "category": "Hard"
     }
   ]
