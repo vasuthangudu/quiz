@@ -1,357 +1,217 @@
 {
   "settings": {
-    "totalTime": "00:40:00"
+    "totalTime": "00:20:00"
   },
   "questions": [
     {
       "id": "q1",
-      "question": "Which tense is used in the sentence: 'I go to school every day'?",
-      "options": ["Present Simple", "Present Continuous", "Past Simple", "Future Simple"],
-      "answer": "Present Simple",
+      "question": "What does MERN stand for?",
+      "options": ["MongoDB, Express, React, Node.js", "MySQL, Express, React, Node.js", "MongoDB, Ember, Redux, Node.js", "MongoDB, Express, Redux, Next.js"],
+      "answer": "MongoDB, Express, React, Node.js",
       "category": "Easy"
     },
     {
       "id": "q2",
-      "question": "Identify the tense: 'She is reading a book now.'",
-      "options": ["Past Continuous", "Present Continuous", "Future Continuous", "Present Perfect"],
-      "answer": "Present Continuous",
+      "question": "Which database is used in the MERN stack?",
+      "options": ["MySQL", "MongoDB", "PostgreSQL", "SQLite"],
+      "answer": "MongoDB",
       "category": "Easy"
     },
     {
       "id": "q3",
-      "question": "Which tense is used: 'They visited London last year.'",
-      "options": ["Past Simple", "Past Perfect", "Present Simple", "Future Simple"],
-      "answer": "Past Simple",
+      "question": "Which part of the MERN stack is used for building the front-end?",
+      "options": ["Node.js", "Express.js", "React.js", "MongoDB"],
+      "answer": "React.js",
       "category": "Easy"
     },
     {
       "id": "q4",
-      "question": "Identify the tense: 'He has finished his homework.'",
-      "options": ["Present Continuous", "Present Perfect", "Past Perfect", "Future Perfect"],
-      "answer": "Present Perfect",
+      "question": "Which MERN component is responsible for server-side logic?",
+      "options": ["React", "MongoDB", "Express", "Redux"],
+      "answer": "Express",
       "category": "Easy"
     },
     {
       "id": "q5",
-      "question": "Which tense: 'By 2025, I will have completed my degree.'",
-      "options": ["Future Perfect", "Future Continuous", "Future Simple", "Present Perfect"],
-      "answer": "Future Perfect",
-      "category": "Medium"
+      "question": "Which of the following is a NoSQL database?",
+      "options": ["MongoDB", "MySQL", "PostgreSQL", "Oracle"],
+      "answer": "MongoDB",
+      "category": "Easy"
     },
     {
       "id": "q6",
-      "question": "Identify the tense: 'She was playing football when it started to rain.'",
-      "options": ["Past Simple", "Past Continuous", "Past Perfect", "Future Continuous"],
-      "answer": "Past Continuous",
+      "question": "Which JavaScript runtime is used in MERN?",
+      "options": ["Deno", "Node.js", "Bun", "V8 only"],
+      "answer": "Node.js",
       "category": "Easy"
     },
     {
       "id": "q7",
-      "question": "Which tense is this: 'I had eaten before they arrived.'",
-      "options": ["Past Simple", "Past Perfect", "Present Perfect", "Future Perfect"],
-      "answer": "Past Perfect",
-      "category": "Medium"
+      "question": "What is the default port for MongoDB?",
+      "options": ["27017", "8080", "3000", "5432"],
+      "answer": "27017",
+      "category": "Easy"
     },
     {
       "id": "q8",
-      "question": "Choose the correct tense: 'I will be traveling to Delhi next week.'",
-      "options": ["Future Perfect", "Future Continuous", "Future Simple", "Present Continuous"],
-      "answer": "Future Continuous",
-      "category": "Medium"
+      "question": "Which method is used to fetch data in React?",
+      "options": ["useState", "useEffect", "fetch API / Axios", "setInterval"],
+      "answer": "fetch API / Axios",
+      "category": "Easy"
     },
     {
       "id": "q9",
-      "question": "Which tense: 'He studies every morning at 6.'",
-      "options": ["Present Continuous", "Present Perfect", "Present Simple", "Past Simple"],
-      "answer": "Present Simple",
+      "question": "Which hook is commonly used to manage component state in React?",
+      "options": ["useContext", "useEffect", "useState", "useReducer"],
+      "answer": "useState",
       "category": "Easy"
     },
     {
       "id": "q10",
-      "question": "Identify the tense: 'She will write a letter tomorrow.'",
-      "options": ["Future Simple", "Future Perfect", "Future Continuous", "Present Simple"],
-      "answer": "Future Simple",
+      "question": "Which HTTP method is used to update existing data in REST API?",
+      "options": ["GET", "POST", "PUT/PATCH", "DELETE"],
+      "answer": "PUT/PATCH",
       "category": "Easy"
     },
     {
       "id": "q11",
-      "question": "Which tense is used here: 'We have been studying for three hours.'",
-      "options": ["Present Continuous", "Present Perfect Continuous", "Past Continuous", "Future Continuous"],
-      "answer": "Present Perfect Continuous",
+      "question": "In Express.js, which method is used to define a GET route?",
+      "options": ["app.route()", "app.use()", "app.get()", "app.fetch()"],
+      "answer": "app.get()",
       "category": "Medium"
     },
     {
       "id": "q12",
-      "question": "Identify the tense: 'They had been working all day before the storm came.'",
-      "options": ["Past Continuous", "Past Perfect Continuous", "Present Perfect Continuous", "Future Perfect Continuous"],
-      "answer": "Past Perfect Continuous",
+      "question": "Which tool is commonly used to manage MongoDB databases?",
+      "options": ["pgAdmin", "MongoDB Compass", "MySQL Workbench", "RoboMySQL"],
+      "answer": "MongoDB Compass",
       "category": "Medium"
     },
     {
       "id": "q13",
-      "question": "Which tense: 'He will have been living here for 10 years by next May.'",
-      "options": ["Future Continuous", "Future Perfect", "Future Perfect Continuous", "Present Perfect Continuous"],
-      "answer": "Future Perfect Continuous",
-      "category": "Hard"
+      "question": "Which library is commonly used for routing in React?",
+      "options": ["React-Redux", "React-Router", "Next.js", "Axios"],
+      "answer": "React-Router",
+      "category": "Medium"
     },
     {
       "id": "q14",
-      "question": "Choose the tense: 'I am going to the market now.'",
-      "options": ["Present Continuous", "Present Simple", "Future Simple", "Past Continuous"],
-      "answer": "Present Continuous",
-      "category": "Easy"
+      "question": "Which keyword is used to make asynchronous calls in Node.js?",
+      "options": ["await", "sync", "yield", "asyncCall"],
+      "answer": "await",
+      "category": "Medium"
     },
     {
       "id": "q15",
-      "question": "Identify the tense: 'We ate dinner at 8 pm yesterday.'",
-      "options": ["Past Perfect", "Past Simple", "Present Perfect", "Future Simple"],
-      "answer": "Past Simple",
-      "category": "Easy"
+      "question": "Which of the following is a schema-less database?",
+      "options": ["MongoDB", "MySQL", "Oracle", "PostgreSQL"],
+      "answer": "MongoDB",
+      "category": "Medium"
     },
     {
       "id": "q16",
-      "question": "Which tense: 'She will be singing in the concert tonight.'",
-      "options": ["Future Continuous", "Future Perfect", "Present Continuous", "Past Continuous"],
-      "answer": "Future Continuous",
+      "question": "In MERN, JWT is commonly used for?",
+      "options": ["Data storage", "Authentication", "Database indexing", "UI design"],
+      "answer": "Authentication",
       "category": "Medium"
     },
     {
       "id": "q17",
-      "question": "Identify the tense: 'By the time we arrived, the movie had already started.'",
-      "options": ["Past Perfect", "Past Continuous", "Past Simple", "Future Perfect"],
-      "answer": "Past Perfect",
+      "question": "Which function is used to connect MongoDB in Node.js?",
+      "options": ["mongoose.connect()", "mongo.init()", "db.connect()", "express.mongo()"],
+      "answer": "mongoose.connect()",
       "category": "Medium"
     },
     {
       "id": "q18",
-      "question": "Which tense is used: 'I will call you when I reach home.'",
-      "options": ["Future Continuous", "Future Simple", "Present Simple", "Future Perfect"],
-      "answer": "Future Simple",
-      "category": "Easy"
+      "question": "Which of the following is NOT part of MERN stack?",
+      "options": ["MongoDB", "Express", "Angular", "React"],
+      "answer": "Angular",
+      "category": "Medium"
     },
     {
       "id": "q19",
-      "question": "Identify the tense: 'He has been waiting for two hours.'",
-      "options": ["Present Perfect Continuous", "Past Perfect Continuous", "Future Continuous", "Present Continuous"],
-      "answer": "Present Perfect Continuous",
+      "question": "Which operator is used in MongoDB queries to filter by conditions?",
+      "options": ["$", "#", "@", "%"],
+      "answer": "$",
       "category": "Medium"
     },
     {
       "id": "q20",
-      "question": "Choose the tense: 'She writes poems in her free time.'",
-      "options": ["Present Simple", "Present Perfect", "Past Simple", "Future Simple"],
-      "answer": "Present Simple",
-      "category": "Easy"
+      "question": "Which React hook is used for side effects?",
+      "options": ["useEffect", "useState", "useReducer", "useMemo"],
+      "answer": "useEffect",
+      "category": "Medium"
     },
     {
       "id": "q21",
-      "question": "Identify the tense: 'They were dancing when we entered the hall.'",
-      "options": ["Past Continuous", "Past Perfect", "Present Continuous", "Future Continuous"],
-      "answer": "Past Continuous",
-      "category": "Easy"
+      "question": "Which middleware is commonly used in Express to parse JSON?",
+      "options": ["express.static()", "express.json()", "express.urlencoded()", "express.body()"],
+      "answer": "express.json()",
+      "category": "Medium"
     },
     {
       "id": "q22",
-      "question": "Which tense: 'I will meet my friend tomorrow evening.'",
-      "options": ["Future Simple", "Future Perfect", "Future Continuous", "Present Simple"],
-      "answer": "Future Simple",
-      "category": "Easy"
+      "question": "Which design pattern is followed in MERN applications?",
+      "options": ["MVC (Model-View-Controller)", "Singleton", "Factory", "Observer"],
+      "answer": "MVC (Model-View-Controller)",
+      "category": "Medium"
     },
     {
       "id": "q23",
-      "question": "Choose the tense: 'She had written three letters before lunch.'",
-      "options": ["Past Perfect", "Past Simple", "Present Perfect", "Future Perfect"],
-      "answer": "Past Perfect",
+      "question": "Which React feature allows reusing UI components?",
+      "options": ["Hooks", "Components", "Redux", "Context API"],
+      "answer": "Components",
       "category": "Medium"
     },
     {
       "id": "q24",
-      "question": "Identify the tense: 'We are learning English grammar today.'",
-      "options": ["Present Perfect", "Present Continuous", "Past Continuous", "Future Continuous"],
-      "answer": "Present Continuous",
-      "category": "Easy"
+      "question": "Which MongoDB command is used to insert one document?",
+      "options": ["db.insertOne()", "db.add()", "db.create()", "db.putOne()"],
+      "answer": "db.insertOne()",
+      "category": "Medium"
     },
     {
       "id": "q25",
-      "question": "Which tense: 'He will have finished his project by Friday.'",
-      "options": ["Future Perfect", "Future Simple", "Future Continuous", "Present Perfect"],
-      "answer": "Future Perfect",
-      "category": "Medium"
+      "question": "Which Node.js module is used to create a server?",
+      "options": ["http", "net", "fs", "url"],
+      "answer": "http",
+      "category": "Hard"
     },
     {
       "id": "q26",
-      "question": "Identify the tense: 'I had been reading when she called.'",
-      "options": ["Past Continuous", "Past Perfect Continuous", "Present Perfect Continuous", "Future Continuous"],
-      "answer": "Past Perfect Continuous",
-      "category": "Medium"
+      "question": "Which method in React is used to update the UI after state changes?",
+      "options": ["render()", "componentDidMount()", "setState()", "forceUpdate()"],
+      "answer": "setState()",
+      "category": "Hard"
     },
     {
       "id": "q27",
-      "question": "Choose the tense: 'They have gone to the park.'",
-      "options": ["Present Perfect", "Past Perfect", "Future Perfect", "Present Continuous"],
-      "answer": "Present Perfect",
-      "category": "Easy"
+      "question": "Which command is used to start a React application?",
+      "options": ["npm start", "npm run dev", "npm serve", "react run"],
+      "answer": "npm start",
+      "category": "Hard"
     },
     {
       "id": "q28",
-      "question": "Which tense: 'She will be waiting for us at the station.'",
-      "options": ["Future Continuous", "Future Perfect", "Future Simple", "Present Continuous"],
-      "answer": "Future Continuous",
-      "category": "Medium"
+      "question": "In MongoDB, which data format is used to store documents?",
+      "options": ["JSON", "BSON", "XML", "CSV"],
+      "answer": "BSON",
+      "category": "Hard"
     },
     {
       "id": "q29",
-      "question": "Identify the tense: 'He had completed his work before I arrived.'",
-      "options": ["Past Perfect", "Past Simple", "Future Perfect", "Present Perfect"],
-      "answer": "Past Perfect",
-      "category": "Medium"
+      "question": "Which function in Express is used as error-handling middleware?",
+      "options": ["next(err)", "catch()", "handleError()", "tryError()"],
+      "answer": "next(err)",
+      "category": "Hard"
     },
     {
       "id": "q30",
-      "question": "Which tense: 'I am studying for my exams right now.'",
-      "options": ["Present Continuous", "Present Simple", "Past Continuous", "Future Continuous"],
-      "answer": "Present Continuous",
-      "category": "Easy"
-    },
-    {
-      "id": "q31",
-      "question": "Choose the tense: 'They play football every weekend.'",
-      "options": ["Present Simple", "Present Continuous", "Past Simple", "Future Simple"],
-      "answer": "Present Simple",
-      "category": "Easy"
-    },
-    {
-      "id": "q32",
-      "question": "Identify the tense: 'She had been singing for an hour before we arrived.'",
-      "options": ["Past Perfect Continuous", "Present Perfect Continuous", "Future Perfect Continuous", "Past Continuous"],
-      "answer": "Past Perfect Continuous",
+      "question": "Which package is commonly used for managing environment variables in Node.js?",
+      "options": ["dotenv", "config", "envify", "process-env"],
+      "answer": "dotenv",
       "category": "Hard"
-    },
-    {
-      "id": "q33",
-      "question": "Which tense: 'He will start a new job next month.'",
-      "options": ["Future Simple", "Future Continuous", "Future Perfect", "Present Simple"],
-      "answer": "Future Simple",
-      "category": "Easy"
-    },
-    {
-      "id": "q34",
-      "question": "Choose the tense: 'I have lived here since 2010.'",
-      "options": ["Present Perfect", "Past Perfect", "Future Perfect", "Present Continuous"],
-      "answer": "Present Perfect",
-      "category": "Medium"
-    },
-    {
-      "id": "q35",
-      "question": "Identify the tense: 'He was watching TV when I visited him.'",
-      "options": ["Past Continuous", "Past Perfect", "Present Continuous", "Future Continuous"],
-      "answer": "Past Continuous",
-      "category": "Easy"
-    },
-    {
-      "id": "q36",
-      "question": "Which tense: 'They will have been studying for five hours by 10 pm.'",
-      "options": ["Future Perfect Continuous", "Future Continuous", "Present Perfect Continuous", "Past Perfect Continuous"],
-      "answer": "Future Perfect Continuous",
-      "category": "Hard"
-    },
-    {
-      "id": "q37",
-      "question": "Choose the tense: 'She works in a bank.'",
-      "options": ["Present Simple", "Present Continuous", "Past Simple", "Future Simple"],
-      "answer": "Present Simple",
-      "category": "Easy"
-    },
-    {
-      "id": "q38",
-      "question": "Identify the tense: 'We will be playing cricket at this time tomorrow.'",
-      "options": ["Future Continuous", "Future Perfect", "Future Perfect Continuous", "Present Continuous"],
-      "answer": "Future Continuous",
-      "category": "Medium"
-    },
-    {
-      "id": "q39",
-      "question": "Which tense: 'She has been working here since 2015.'",
-      "options": ["Present Perfect Continuous", "Past Perfect Continuous", "Future Perfect Continuous", "Present Continuous"],
-      "answer": "Present Perfect Continuous",
-      "category": "Medium"
-    },
-    {
-      "id": "q40",
-      "question": "Choose the tense: 'They had finished dinner when I arrived.'",
-      "options": ["Past Perfect", "Past Simple", "Present Perfect", "Future Perfect"],
-      "answer": "Past Perfect",
-      "category": "Medium"
-    },
-    {
-      "id": "q41",
-      "question": "Identify the tense: 'We are watching a movie now.'",
-      "options": ["Present Continuous", "Present Simple", "Past Continuous", "Future Continuous"],
-      "answer": "Present Continuous",
-      "category": "Easy"
-    },
-    {
-      "id": "q42",
-      "question": "Which tense: 'By next week, she will have completed her training.'",
-      "options": ["Future Perfect", "Future Continuous", "Future Perfect Continuous", "Present Perfect"],
-      "answer": "Future Perfect",
-      "category": "Medium"
-    },
-    {
-      "id": "q43",
-      "question": "Choose the tense: 'I had been waiting for hours before the bus came.'",
-      "options": ["Past Perfect Continuous", "Past Continuous", "Present Perfect Continuous", "Future Continuous"],
-      "answer": "Past Perfect Continuous",
-      "category": "Medium"
-    },
-    {
-      "id": "q44",
-      "question": "Identify the tense: 'He reads novels in his free time.'",
-      "options": ["Present Simple", "Past Simple", "Future Simple", "Present Perfect"],
-      "answer": "Present Simple",
-      "category": "Easy"
-    },
-    {
-      "id": "q45",
-      "question": "Which tense: 'She will be cooking dinner at 7 pm.'",
-      "options": ["Future Continuous", "Future Simple", "Future Perfect", "Present Continuous"],
-      "answer": "Future Continuous",
-      "category": "Medium"
-    },
-    {
-      "id": "q46",
-      "question": "Choose the tense: 'They have completed their homework.'",
-      "options": ["Present Perfect", "Past Perfect", "Future Perfect", "Present Continuous"],
-      "answer": "Present Perfect",
-      "category": "Easy"
-    },
-    {
-      "id": "q47",
-      "question": "Identify the tense: 'We were talking when the teacher entered.'",
-      "options": ["Past Continuous", "Past Perfect", "Present Continuous", "Future Continuous"],
-      "answer": "Past Continuous",
-      "category": "Easy"
-    },
-    {
-      "id": "q48",
-      "question": "Which tense: 'He will have been working here for 20 years by 2030.'",
-      "options": ["Future Perfect Continuous", "Future Perfect", "Future Continuous", "Present Perfect Continuous"],
-      "answer": "Future Perfect Continuous",
-      "category": "Hard"
-    },
-    {
-      "id": "q49",
-      "question": "Choose the tense: 'She sang beautifully at the function yesterday.'",
-      "options": ["Past Simple", "Present Simple", "Future Simple", "Past Perfect"],
-      "answer": "Past Simple",
-      "category": "Easy"
-    },
-    {
-      "id": "q50",
-      "question": "Identify the tense: 'I will call you later tonight.'",
-      "options": ["Future Simple", "Future Perfect", "Future Continuous", "Present Simple"],
-      "answer": "Future Simple",
-      "category": "Easy"
     }
   ]
 }
