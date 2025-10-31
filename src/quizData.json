@@ -1,217 +1,287 @@
 {
-  "settings": {
-    "totalTime": "00:25:00"
-  },
-  "questions": [
-    {
-      "id": "q1",
-      "question": "Which language is primarily used in MERN stack development?",
-      "options": ["Python", "Java", "JavaScript", "C#"],
-      "answer": "JavaScript",
-      "category": "Easy"
-    },
-    {
-      "id": "q2",
-      "question": "Which package manager is commonly used with Node.js?",
-      "options": ["pip", "composer", "npm", "gradle"],
-      "answer": "npm",
-      "category": "Easy"
-    },
-    {
-      "id": "q3",
-      "question": "Which React hook is used to access context values?",
-      "options": ["useState", "useEffect", "useContext", "useMemo"],
-      "answer": "useContext",
-      "category": "Easy"
-    },
-    {
-      "id": "q4",
-      "question": "Which command creates a new React app?",
-      "options": ["npx create-react-app appname", "npm install react-app", "react new appname", "npm start react"],
-      "answer": "npx create-react-app appname",
-      "category": "Easy"
-    },
-    {
-      "id": "q5",
-      "question": "Which HTTP method is used to delete data in REST API?",
-      "options": ["GET", "POST", "DELETE", "PUT"],
-      "answer": "DELETE",
-      "category": "Easy"
-    },
-    {
-      "id": "q6",
-      "question": "Which command starts a Node.js application?",
-      "options": ["node app.js", "start app.js", "npm node app.js", "run node"],
-      "answer": "node app.js",
-      "category": "Easy"
-    },
-    {
-      "id": "q7",
-      "question": "Which library is used for state management in React?",
-      "options": ["Redux", "Axios", "Bootstrap", "jQuery"],
-      "answer": "Redux",
-      "category": "Easy"
-    },
-    {
-      "id": "q8",
-      "question": "Which extension is used for React components?",
-      "options": [".java", ".jsx", ".ts", ".html"],
-      "answer": ".jsx",
-      "category": "Easy"
-    },
-    {
-      "id": "q9",
-      "question": "Which operator is used in MongoDB to match multiple conditions?",
-      "options": ["$and", "$if", "$cond", "$where"],
-      "answer": "$and",
-      "category": "Medium"
-    },
-    {
-      "id": "q10",
-      "question": "Which function in Mongoose is used to define a schema?",
-      "options": ["mongoose.Schema()", "mongoose.Model()", "mongoose.connect()", "mongoose.create()"],
-      "answer": "mongoose.Schema()",
-      "category": "Medium"
-    },
-    {
-      "id": "q11",
-      "question": "Which lifecycle method is called once after the component mounts in class components?",
-      "options": ["componentDidUpdate", "componentWillUnmount", "componentDidMount", "render"],
-      "answer": "componentDidMount",
-      "category": "Medium"
-    },
-    {
-      "id": "q12",
-      "question": "Which command is used to install dependencies from package.json?",
-      "options": ["npm start", "npm install", "npm run build", "npm update"],
-      "answer": "npm install",
-      "category": "Medium"
-    },
-    {
-      "id": "q13",
-      "question": "Which React hook is used to optimize performance by memoizing values?",
-      "options": ["useState", "useEffect", "useMemo", "useRef"],
-      "answer": "useMemo",
-      "category": "Medium"
-    },
-    {
-      "id": "q14",
-      "question": "Which MongoDB method retrieves all documents from a collection?",
-      "options": ["find()", "getAll()", "fetch()", "query()"],
-      "answer": "find()",
-      "category": "Medium"
-    },
-    {
-      "id": "q15",
-      "question": "Which Node.js module is used for working with file system?",
-      "options": ["http", "fs", "os", "events"],
-      "answer": "fs",
-      "category": "Medium"
-    },
-    {
-      "id": "q16",
-      "question": "Which command is used to start MongoDB service locally?",
-      "options": ["mongod", "mongo start", "db.start()", "start-mongo"],
-      "answer": "mongod",
-      "category": "Medium"
-    },
-    {
-      "id": "q17",
-      "question": "Which CSS framework is often used with React for styling?",
-      "options": ["Bootstrap", "Django", "Spring", "Hibernate"],
-      "answer": "Bootstrap",
-      "category": "Medium"
-    },
-    {
-      "id": "q18",
-      "question": "Which React hook gives access to DOM elements directly?",
-      "options": ["useMemo", "useEffect", "useState", "useRef"],
-      "answer": "useRef",
-      "category": "Medium"
-    },
-    {
-      "id": "q19",
-      "question": "Which Node.js framework is most commonly used for APIs?",
-      "options": ["Express", "NestJS", "Koa", "Sails"],
-      "answer": "Express",
-      "category": "Medium"
-    },
-    {
-      "id": "q20",
-      "question": "Which MongoDB method updates multiple documents?",
-      "options": ["update()", "updateMany()", "updateOne()", "modifyAll()"],
-      "answer": "updateMany()",
-      "category": "Medium"
-    },
-    {
-      "id": "q21",
-      "question": "Which method in React is used to handle forms?",
-      "options": ["onSubmit", "onClick", "onChange", "onInput"],
-      "answer": "onSubmit",
-      "category": "Medium"
-    },
-    {
-      "id": "q22",
-      "question": "Which database command shows all databases in MongoDB?",
-      "options": ["show dbs", "list databases", "db.show()", "get databases"],
-      "answer": "show dbs",
-      "category": "Medium"
-    },
-    {
-      "id": "q23",
-      "question": "Which React feature helps improve rendering by assigning keys?",
-      "options": ["Fragments", "Keys", "Refs", "Props"],
-      "answer": "Keys",
-      "category": "Medium"
-    },
-    {
-      "id": "q24",
-      "question": "Which command removes a Node.js dependency?",
-      "options": ["npm delete", "npm uninstall", "npm remove", "npm stop"],
-      "answer": "npm uninstall",
-      "category": "Medium"
-    },
-    {
-      "id": "q25",
-      "question": "Which event loop concept allows Node.js to handle async operations?",
-      "options": ["Callbacks", "Threads", "Event Loop", "Processes"],
-      "answer": "Event Loop",
-      "category": "Hard"
-    },
-    {
-      "id": "q26",
-      "question": "Which HTTP status code represents a successful request?",
-      "options": ["200", "404", "500", "301"],
-      "answer": "200",
-      "category": "Hard"
-    },
-    {
-      "id": "q27",
-      "question": "Which MongoDB command drops a collection?",
-      "options": ["db.drop()", "db.removeCollection()", "db.collection.drop()", "db.clear()"],
-      "answer": "db.collection.drop()",
-      "category": "Hard"
-    },
-    {
-      "id": "q28",
-      "question": "Which function in React prevents default browser behavior?",
-      "options": ["stopDefault()", "preventDefault()", "stopEvent()", "cancelDefault()"],
-      "answer": "preventDefault()",
-      "category": "Hard"
-    },
-    {
-      "id": "q29",
-      "question": "Which React feature is used to pass data from parent to child?",
-      "options": ["State", "Props", "Hooks", "Refs"],
-      "answer": "Props",
-      "category": "Hard"
-    },
-    {
-      "id": "q30",
-      "question": "Which command is used to build a production-ready React app?",
-      "options": ["npm run build", "npm run prod", "npm build", "react build"],
-      "answer": "npm run build",
-      "category": "Hard"
-    }
-  ]
+"settings": {
+"totalTime": "00:20:00"
+},
+"questions": [
+{
+"id": "q1",
+"question": "Which command shows the current database in the MongoDB shell?",
+"options": ["show dbs", "db", "db.getName()", "use"],
+"answer": "db",
+"category": "Easy"
+},
+{
+"id": "q2",
+"question": "Which method inserts a single document into a collection in MongoDB?",
+"options": ["insertOne()", "save()", "insertMany()", "add()"],
+"answer": "insertOne()",
+"category": "Easy"
+},
+{
+"id": "q3",
+"question": "Which operator is used to match documents where a field equals a value?",
+"options": ["$eq", "$match", "$same", "$is"],
+"answer": "$eq",
+"category": "Easy"
+},
+{
+"id": "q4",
+"question": "Which command switches to a database (or creates it if it doesn't exist) in the shell?",
+"options": ["use dbname", "switch dbname", "connect dbname", "open dbname"],
+"answer": "use dbname",
+"category": "Easy"
+},
+{
+"id": "q5",
+"question": "Which MongoDB method retrieves documents with a query filter?",
+"options": ["find()", "get()", "select()", "query()"],
+"answer": "find()",
+"category": "Easy"
+},
+{
+"id": "q6",
+"question": "Which data format does MongoDB use to store documents?",
+"options": ["JSON", "BSON", "XML", "YAML"],
+"answer": "BSON",
+"category": "Easy"
+},
+{
+"id": "q7",
+"question": "Which command lists collections in the current database?",
+"options": ["show collections", "list collections", "db.collections()", "ls collections"],
+"answer": "show collections",
+"category": "Easy"
+},
+{
+"id": "q8",
+"question": "Which Mongoose method is used to define a schema?",
+"options": ["mongoose.Schema()", "mongoose.model()", "mongoose.connect()", "mongoose.create()"],
+"answer": "mongoose.Schema()",
+"category": "Easy"
+},
+{
+"id": "q9",
+"question": "Which MongoDB shell command displays help for a collection?",
+"options": ["db.collection.help()", "db.collection.info()", "help collection", "show help collection"],
+"answer": "db.collection.help()",
+"category": "Easy"
+},
+{
+"id": "q10",
+"question": "Which method updates a single document matching a filter?",
+"options": ["updateOne()", "updateMany()", "replace()", "modify()"],
+"answer": "updateOne()",
+"category": "Easy"
+},
+{
+"id": "q11",
+"question": "Which CRUD operation corresponds to the HTTP POST method when building REST APIs with MongoDB backend?",
+"options": ["Create", "Read", "Update", "Delete"],
+"answer": "Create",
+"category": "Medium"
+},
+{
+"id": "q12",
+"question": "Which aggregation stage groups documents by a specified expression?",
+"options": ["$group", "$match", "$project", "$sort"],
+"answer": "$group",
+"category": "Medium"
+},
+{
+"id": "q13",
+"question": "Which index type is best for full-text search in MongoDB?",
+"options": ["text index", "hashed index", "compound index", "sparse index"],
+"answer": "text index",
+"category": "Medium"
+},
+{
+"id": "q14",
+"question": "Which operator is used to perform a left outer join in aggregation?",
+"options": ["$lookup", "$join", "$merge", "$unwind"],
+"answer": "$lookup",
+"category": "Medium"
+},
+{
+"id": "q15",
+"question": "Which Mongoose method compiles a schema into a model?",
+"options": ["mongoose.model()", "Schema.compile()", "mongoose.createModel()", "new Model()"],
+"answer": "mongoose.model()",
+"category": "Medium"
+},
+{
+"id": "q16",
+"question": "Which command shows current replica set configuration in the MongoDB shell?",
+"options": ["rs.conf()", "rs.status()", "replSet.getConfig()", "rs.config()"],
+"answer": "rs.conf()",
+"category": "Medium"
+},
+{
+"id": "q17",
+"question": "Which aggregation stage reshapes each document in the stream, specifying the fields to include or exclude?",
+"options": ["$project", "$group", "$match", "$limit"],
+"answer": "$project",
+"category": "Medium"
+},
+{
+"id": "q18",
+"question": "Which index improves equality query performance for a single field?",
+"options": ["Single-field index", "Multikey index", "Geospatial index", "Wildcard index"],
+"answer": "Single-field index",
+"category": "Medium"
+},
+{
+"id": "q19",
+"question": "Which operator filters documents in an aggregation pipeline?",
+"options": ["$match", "$filter", "$where", "$cond"],
+"answer": "$match",
+"category": "Medium"
+},
+{
+"id": "q20",
+"question": "Which MongoDB command removes a collection from the database?",
+"options": ["db.collection.drop()", "db.collection.remove()", "db.collection.delete()", "drop.collection()"],
+"answer": "db.collection.drop()",
+"category": "Medium"
+},
+{
+"id": "q21",
+"question": "Which option should you set on an index to ensure it only references documents where the indexed field exists?",
+"options": ["sparse: true", "unique: true", "background: true", "expireAfterSeconds"],
+"answer": "sparse: true",
+"category": "Medium"
+},
+{
+"id": "q22",
+"question": "Which command starts the MongoDB server daemon?",
+"options": ["mongod", "mongo", "mongos", "mongodb-start"],
+"answer": "mongod",
+"category": "Medium"
+},
+{
+"id": "q23",
+"question": "Which aggregation stage deconstructs an array field from the input documents to output a document for each element?",
+"options": ["$unwind", "$split", "$explode", "$arrayElemAt"],
+"answer": "$unwind",
+"category": "Medium"
+},
+{
+"id": "q24",
+"question": "Which Mongoose feature enforces a schema on top of MongoDB's flexible documents?",
+"options": ["Schemas", "Indexes", "Validators", "Hooks"],
+"answer": "Schemas",
+"category": "Medium"
+},
+{
+"id": "q25",
+"question": "Which operator is used to update only specific fields in a document?",
+"options": ["$set", "$replace", "$update", "$inc"],
+"answer": "$set",
+"category": "Hard"
+},
+{
+"id": "q26",
+"question": "Which command provides diagnostic and status information for a replica set?",
+"options": ["rs.status()", "rs.info()", "db.status()", "repl.status()"],
+"answer": "rs.status()",
+"category": "Hard"
+},
+{
+"id": "q27",
+"question": "Which aggregation operator calculates the average of numeric values for a group?",
+"options": ["$avg", "$mean", "$sum", "$accumulator"],
+"answer": "$avg",
+"category": "Hard"
+},
+{
+"id": "q28",
+"question": "Which feature in MongoDB enables horizontal scaling by distributing data across shards?",
+"options": ["Sharding", "Replication", "Clustering", "Partitioning"],
+"answer": "Sharding",
+"category": "Hard"
+},
+{
+"id": "q29",
+"question": "Which write concern ensures acknowledgement that data has been written to the primary and replicated to a specified number of secondaries?",
+"options": ["{ w: 'majority' }", "{ w: 0 }", "{ w: 1 }", "{ w: 'primary' }"],
+"answer": "{ w: 'majority' }",
+"category": "Hard"
+},
+{
+"id": "q30",
+"question": "Which MongoDB command starts the mongos query router used in sharded clusters?",
+"options": ["mongos", "mongod --shard", "mongo --router", "mongosh-router"],
+"answer": "mongos",
+"category": "Hard"
+},
+{
+"id": "q31",
+"question": "Which aggregation stage sorts the documents in the pipeline?",
+"options": ["$sort", "$order", "$arrange", "$sequence"],
+"answer": "$sort",
+"category": "Hard"
+},
+{
+"id": "q32",
+"question": "Which operator is used to add a computed field to documents in aggregation?",
+"options": ["$addFields", "$compute", "$setField", "$projectField"],
+"answer": "$addFields",
+"category": "Hard"
+},
+{
+"id": "q33",
+"question": "Which MongoDB feature allows executing multi-document transactions with ACID guarantees (from v4.0)?",
+"options": ["Replica set transactions", "Sharded transactions", "Single-document transactions", "Local transactions"],
+"answer": "Replica set transactions",
+"category": "Hard"
+},
+{
+"id": "q34",
+"question": "Which index type uses a hashed value of the field and is useful for shard key hashing?",
+"options": ["hashed index", "compound index", "text index", "geoHaystack index"],
+"answer": "hashed index",
+"category": "Hard"
+},
+{
+"id": "q35",
+"question": "Which aggregation operator performs a left outer join across collections and lets you pipeline the joined documents?",
+"options": ["$lookup", "$graphLookup", "$join", "$merge"],
+"answer": "$lookup",
+"category": "Hard"
+},
+{
+"id": "q36",
+"question": "Which command in MongoDB shell removes all documents from a collection but preserves indexes?",
+"options": ["db.collection.deleteMany({})", "db.collection.drop()", "db.collection.removeAll()", "db.collection.clear()"],
+"answer": "db.collection.deleteMany({})",
+"category": "Hard"
+},
+{
+"id": "q37",
+"question": "Which Atlas feature simplifies global distribution and low-latency reads by directing reads to the nearest replica set member?",
+"options": ["Global clusters (Zone sharding)", "Multi-cloud peering", "Serverless instances", "Data federation"],
+"answer": "Global clusters (Zone sharding)",
+"category": "Hard"
+},
+{
+"id": "q38",
+"question": "Which query operator matches documents where a field's value is in a specified array of values?",
+"options": ["$in", "$all", "$exists", "$nin"],
+"answer": "$in",
+"category": "Hard"
+},
+{
+"id": "q39",
+"question": "Which pipeline stage writes the aggregation results to a collection?",
+"options": ["$out", "$merge", "$write", "$store"],
+"answer": "$out",
+"category": "Hard"
+},
+{
+"id": "q40",
+"question": "Which operator condition allows matching array elements that meet multiple criteria within a single $elemMatch?",
+"options": ["$elemMatch", "$all", "$size", "$slice"],
+"answer": "$elemMatch",
+"category": "Hard"
+}
+]
 }
