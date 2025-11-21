@@ -5,214 +5,430 @@
   "questions": [
     {
       "id": "q1",
-      "question": "What is the output of: console.log(typeof NaN);",
-      "options": ["number", "NaN", "undefined", "object"],
-      "answer": "number",
+      "question": "Which command shows all databases in MongoDB shell?",
+      "options": ["show dbs", "db.show()", "list databases", "dbs"],
+      "answer": "show dbs",
       "category": "Easy"
     },
     {
       "id": "q2",
-      "question": "What will this print? console.log(3 + '3');",
-      "options": ["33", "6", "undefined", "Error"],
-      "answer": "33",
+      "question": "What is the default port for MongoDB?",
+      "options": ["27017", "3000", "5000", "8000"],
+      "answer": "27017",
       "category": "Easy"
     },
     {
       "id": "q3",
-      "question": "Output? console.log(3 == '3');",
-      "options": ["true", "false", "undefined", "Error"],
-      "answer": "true",
+      "question": "Which keyword is used to import a module in Node.js?",
+      "options": ["import", "require", "use", "load"],
+      "answer": "require",
       "category": "Easy"
     },
     {
       "id": "q4",
-      "question": "Output? console.log(3 === '3');",
-      "options": ["true", "false", "null", "Error"],
-      "answer": "false",
+      "question": "What is the output of console.log(typeof undefined);",
+      "options": ["undefined", "object", "null", "string"],
+      "answer": "undefined",
       "category": "Easy"
     },
     {
       "id": "q5",
-      "question": "Output of: console.log(Boolean(''));",
-      "options": ["true", "false", "undefined", "null"],
-      "answer": "false",
+      "question": "React is mainly used for?",
+      "options": ["Database", "Frontend UI", "Backend API", "Networking"],
+      "answer": "Frontend UI",
       "category": "Easy"
     },
     {
       "id": "q6",
-      "question": "What prints? console.log(typeof null);",
-      "options": ["null", "object", "undefined", "string"],
-      "answer": "object",
+      "question": "Which hook is used for managing state in React?",
+      "options": ["useEffect", "useState", "useMemo", "useRef"],
+      "answer": "useState",
       "category": "Easy"
     },
     {
       "id": "q7",
-      "question": "Output? console.log([1,2] + [3,4]);",
-      "options": ["1,23,4", "10", "Error", "[1,2,3,4]"],
-      "answer": "1,23,4",
+      "question": "What is Express.js?",
+      "options": ["Frontend framework", "Database", "Node.js framework", "CSS library"],
+      "answer": "Node.js framework",
       "category": "Easy"
     },
     {
       "id": "q8",
-      "question": "Output of console.log('5' - 2);",
-      "options": ["3", "52", "NaN", "undefined"],
-      "answer": "3",
+      "question": "Which HTTP method is used to retrieve data?",
+      "options": ["POST", "GET", "PUT", "DELETE"],
+      "answer": "GET",
       "category": "Easy"
     },
     {
       "id": "q9",
-      "question": "Output? console.log(0 == false);",
-      "options": ["true", "false", "undefined", "Error"],
-      "answer": "true",
+      "question": "Which MongoDB data type stores text?",
+      "options": ["Number", "String", "Document", "Array"],
+      "answer": "String",
       "category": "Easy"
     },
     {
       "id": "q10",
-      "question": "Output? console.log([] == 0);",
-      "options": ["true", "false", "undefined", "TypeError"],
-      "answer": "true",
+      "question": "What is Node.js?",
+      "options": ["JavaScript runtime", "Database", "UI library", "Web server"],
+      "answer": "JavaScript runtime",
       "category": "Easy"
     },
 
     {
       "id": "q11",
-      "question": "Output? console.log([] === []);",
-      "options": ["true", "false", "undefined", "Error"],
-      "answer": "false",
-      "category": "Medium"
+      "question": "Output? console.log(2 + '2');",
+      "options": ["22", "4", "NaN", "undefined"],
+      "answer": "22",
+      "category": "Easy"
     },
     {
       "id": "q12",
-      "question": "Output? console.log({} == {});",
-      "options": ["true", "false", "undefined", "Error"],
-      "answer": "false",
-      "category": "Medium"
+      "question": "What does npm stand for?",
+      "options": ["Node Package Manager", "New Project Maker", "Network Project Manager", "Node Program Manager"],
+      "answer": "Node Package Manager",
+      "category": "Easy"
     },
     {
       "id": "q13",
-      "question": "What prints? console.log(!!'Hello');",
-      "options": ["true", "false", "undefined", "Error"],
-      "answer": "true",
-      "category": "Medium"
+      "question": "Which file defines Node.js project dependencies?",
+      "options": ["index.js", "server.js", "package.json", "config.json"],
+      "answer": "package.json",
+      "category": "Easy"
     },
     {
       "id": "q14",
-      "question": "Output? console.log(1 < 2 < 3);",
-      "options": ["true", "false", "undefined", "Error"],
-      "answer": "true",
-      "category": "Medium"
+      "question": "Which command creates a React app?",
+      "options": ["npm init react", "create-react-app", "npx create-react-app", "react new app"],
+      "answer": "npx create-react-app",
+      "category": "Easy"
     },
     {
       "id": "q15",
-      "question": "Output? console.log(3 > 2 > 1);",
-      "options": ["true", "false", "undefined", "Error"],
-      "answer": "false",
-      "category": "Medium"
+      "question": "What does REST stand for?",
+      "options": ["Random State Transfer", "Representational State Transfer", "Reconstructed Secure Transfer", "Remote Script Transfer"],
+      "answer": "Representational State Transfer",
+      "category": "Easy"
     },
+
     {
       "id": "q16",
-      "question": "Output? let a; console.log(a);",
-      "options": ["undefined", "null", "0", "Error"],
-      "answer": "undefined",
+      "question": "Which HTTP status code means 'Not Found'?",
+      "options": ["200", "400", "404", "500"],
+      "answer": "404",
       "category": "Medium"
     },
     {
       "id": "q17",
-      "question": "Output? console.log(typeof (() => {}));",
-      "options": ["function", "object", "undefined", "arrow"],
-      "answer": "function",
+      "question": "Which hook runs after every render?",
+      "options": ["useState", "useRef", "useEffect", "useContext"],
+      "answer": "useEffect",
       "category": "Medium"
     },
     {
       "id": "q18",
-      "question": "Output? console.log([1,2].length);",
-      "options": ["2", "1", "undefined", "Error"],
-      "answer": "2",
+      "question": "What is the default port for Express.js?",
+      "options": ["5000", "8000", "3000", "27017"],
+      "answer": "3000",
       "category": "Medium"
     },
     {
       "id": "q19",
-      "question": "Output? console.log('10' > '2');",
-      "options": ["false", "true", "undefined", "Error"],
-      "answer": "false",
+      "question": "Mongoose is used for?",
+      "options": ["React state", "MongoDB schema modeling", "CSS", "Frontend routing"],
+      "answer": "MongoDB schema modeling",
       "category": "Medium"
     },
     {
       "id": "q20",
-      "question": "Output of: console.log(parseInt('10a'));",
-      "options": ["10", "NaN", "0", "Error"],
-      "answer": "10",
+      "question": "Which operator spreads elements of an array?",
+      "options": ["++", "...", "**", "=>"],
+      "answer": "...",
+      "category": "Medium"
+    },
+    {
+      "id": "q21",
+      "question": "Output? console.log('5' - 1);",
+      "options": ["4", "51", "NaN", "undefined"],
+      "answer": "4",
+      "category": "Medium"
+    },
+    {
+      "id": "q22",
+      "question": "Which command starts a Node server with auto-reload?",
+      "options": ["npm start", "node server.js", "nodemon server.js", "node reload"],
+      "answer": "nodemon server.js",
+      "category": "Medium"
+    },
+    {
+      "id": "q23",
+      "question": "Which middleware handles JSON in Express?",
+      "options": ["express.urlencoded()", "express.json()", "json()", "bodyParser.raw()"],
+      "answer": "express.json()",
+      "category": "Medium"
+    },
+    {
+      "id": "q24",
+      "question": "React components must start with?",
+      "options": ["Uppercase letter", "Lowercase letter", "Number", "Symbol"],
+      "answer": "Uppercase letter",
+      "category": "Medium"
+    },
+    {
+      "id": "q25",
+      "question": "Which MongoDB command deletes a document?",
+      "options": ["remove()", "delete()", "deleteOne()", "erase()"],
+      "answer": "deleteOne()",
       "category": "Medium"
     },
 
     {
-      "id": "q21",
-      "question": "What is the output? console.log([1,2,3].map(x => x * 2));",
+      "id": "q26",
+      "question": "Output? console.log([] == 0);",
+      "options": ["true", "false", "undefined", "NaN"],
+      "answer": "true",
+      "category": "Medium"
+    },
+    {
+      "id": "q27",
+      "question": "Which hook stores a value without re-rendering?",
+      "options": ["useState", "useEffect", "useMemo", "useRef"],
+      "answer": "useRef",
+      "category": "Medium"
+    },
+    {
+      "id": "q28",
+      "question": "What is JWT used for?",
+      "options": ["Database storage", "Authentication", "CSS styling", "Routing"],
+      "answer": "Authentication",
+      "category": "Medium"
+    },
+    {
+      "id": "q29",
+      "question": "Which library is used to hash passwords in Node.js?",
+      "options": ["crypto", "bcrypt", "argon2", "hashlib"],
+      "answer": "bcrypt",
+      "category": "Medium"
+    },
+    {
+      "id": "q30",
+      "question": "Which method is used to update data in MongoDB?",
+      "options": ["updateOne()", "changeOne()", "set()", "modify()"],
+      "answer": "updateOne()",
+      "category": "Medium"
+    },
+
+    {
+      "id": "q31",
+      "question": "Output? console.log(typeof []);",
+      "options": ["object", "array", "undefined", "null"],
+      "answer": "object",
+      "category": "Hard"
+    },
+    {
+      "id": "q32",
+      "question": "Which method sends JSON response in Express?",
+      "options": ["res.sendJSON()", "res.json()", "res.text()", "res.sendFile()"],
+      "answer": "res.json()",
+      "category": "Hard"
+    },
+    {
+      "id": "q33",
+      "question": "Which hook is used for memoization?",
+      "options": ["useMemo", "useRef", "useCallback", "useState"],
+      "answer": "useMemo",
+      "category": "Hard"
+    },
+    {
+      "id": "q34",
+      "question": "Which MongoDB operator matches documents greater than a value?",
+      "options": ["$gte", "$gt", "$greater", "$more"],
+      "answer": "$gt",
+      "category": "Hard"
+    },
+    {
+      "id": "q35",
+      "question": "Output? console.log(Number('abc'));",
+      "options": ["NaN", "0", "abc", "undefined"],
+      "answer": "NaN",
+      "category": "Hard"
+    },
+    {
+      "id": "q36",
+      "question": "What is CORS used for?",
+      "options": ["Security", "Cross-origin access", "Database connection", "Routing"],
+      "answer": "Cross-origin access",
+      "category": "Hard"
+    },
+    {
+      "id": "q37",
+      "question": "Which method merges arrays?",
+      "options": ["join()", "concat()", "merge()", "combine()"],
+      "answer": "concat()",
+      "category": "Hard"
+    },
+    {
+      "id": "q38",
+      "question": "Which operator is used for optional chaining?",
+      "options": ["?.", "::", "=>", "??"],
+      "answer": "?.",
+      "category": "Hard"
+    },
+    {
+      "id": "q39",
+      "question": "Which function creates a Redux store?",
+      "options": ["new Store()", "createStore()", "makeStore()", "configure()"],
+      "answer": "createStore()",
+      "category": "Hard"
+    },
+    {
+      "id": "q40",
+      "question": "Which hook is used for expensive callback optimization?",
+      "options": ["useMemo", "useState", "useCallback", "useEffect"],
+      "answer": "useCallback",
+      "category": "Hard"
+    },
+
+    {
+      "id": "q41",
+      "question": "Output? console.log([1,2,3].map(x=>x*2));",
       "options": ["[2,4,6]", "2,4,6", "undefined", "Error"],
       "answer": "[2,4,6]",
       "category": "Hard"
     },
     {
-      "id": "q22",
-      "question": "Output? console.log(typeof NaN === 'number');",
-      "options": ["true", "false", "undefined", "Error"],
-      "answer": "true",
+      "id": "q42",
+      "question": "Which Express function defines a new route?",
+      "options": ["app.route()", "app.create()", "app.listen()", "app.newRoute()"],
+      "answer": "app.route()",
       "category": "Hard"
     },
     {
-      "id": "q23",
-      "question": "Output? console.log([...'abc']);",
-      "options": ["['a','b','c']", "abc", "undefined", "Error"],
-      "answer": "['a','b','c']",
+      "id": "q43",
+      "question": "Which MongoDB command inserts multiple documents?",
+      "options": ["insert()", "insertMany()", "addMany()", "pushMany()"],
+      "answer": "insertMany()",
       "category": "Hard"
     },
     {
-      "id": "q24",
-      "question": "Output? console.log([1,2,3].filter(x => x > 2));",
-      "options": ["[3]", "3", "undefined", "Error"],
-      "answer": "[3]",
+      "id": "q44",
+      "question": "React uses which type of DOM?",
+      "options": ["Real DOM", "Shadow DOM", "Virtual DOM", "Custom DOM"],
+      "answer": "Virtual DOM",
       "category": "Hard"
     },
     {
-      "id": "q25",
-      "question": "Output? console.log([1,2,3].reduce((a,b)=>a+b,0));",
-      "options": ["6", "123", "undefined", "Error"],
-      "answer": "6",
+      "id": "q45",
+      "question": "Which Mongoose method finds one document?",
+      "options": ["find()", "findOne()", "getOne()", "searchOne()"],
+      "answer": "findOne()",
       "category": "Hard"
     },
+
     {
-      "id": "q26",
+      "id": "q46",
       "question": "Output? console.log('5' * 2);",
-      "options": ["10", "52", "NaN", "Error"],
+      "options": ["10", "52", "NaN", "undefined"],
       "answer": "10",
       "category": "Hard"
     },
     {
-      "id": "q27",
-      "question": "Output? console.log(typeof []);",
-      "options": ["object", "array", "undefined", "Error"],
-      "answer": "object",
+      "id": "q47",
+      "question": "Which command installs Express?",
+      "options": ["npm install express", "npm get express", "install express", "node express"],
+      "answer": "npm install express",
       "category": "Hard"
     },
     {
-      "id": "q28",
-      "question": "Output? console.log(+'5');",
-      "options": ["5", "NaN", "undefined", "Error"],
-      "answer": "5",
+      "id": "q48",
+      "question": "Which of these is NOT a valid React hook?",
+      "options": ["useState", "useEffect", "useClass", "useRef"],
+      "answer": "useClass",
       "category": "Hard"
     },
     {
-      "id": "q29",
-      "question": "Output? console.log([] + {});",
-      "options": ["[object Object]", "{}", "undefined", "Error"],
-      "answer": "[object Object]",
+      "id": "q49",
+      "question": "Which HTTP status code represents server error?",
+      "options": ["400", "401", "403", "500"],
+      "answer": "500",
       "category": "Hard"
     },
     {
-      "id": "q30",
-      "question": "Output? console.log({} + []);",
-      "options": ["0", "[object Object]", "[object Object][object Object]", "undefined"],
-      "answer": "[object Object]",
+      "id": "q50",
+      "question": "What does async function return?",
+      "options": ["Promise", "Number", "String", "Callback"],
+      "answer": "Promise",
+      "category": "Hard"
+    },
+
+    {
+      "id": "q51",
+      "question": "Output? console.log({} + {});",
+      "options": ["[object Object][object Object]", "NaN", "0", "undefined"],
+      "answer": "[object Object][object Object]",
+      "category": "Hard"
+    },
+    {
+      "id": "q52",
+      "question": "What does fetch() return?",
+      "options": ["Object", "Promise", "String", "JSON"],
+      "answer": "Promise",
+      "category": "Hard"
+    },
+    {
+      "id": "q53",
+      "question": "Which MongoDB command shows collections?",
+      "options": ["show tables", "show collections", "list collections", "db.collections"],
+      "answer": "show collections",
+      "category": "Hard"
+    },
+    {
+      "id": "q54",
+      "question": "React Router is used for?",
+      "options": ["API calls", "Component styling", "Page navigation", "Database operations"],
+      "answer": "Page navigation",
+      "category": "Hard"
+    },
+    {
+      "id": "q55",
+      "question": "Which operator returns the right side if left is null?",
+      "options": ["??", "||", "&&", "?:",
+      ],
+      "answer": "??",
+      "category": "Hard"
+    },
+    {
+      "id": "q56",
+      "question": "Express middleware must include which parameter?",
+      "options": ["res", "next", "json", "callback"],
+      "answer": "next",
+      "category": "Hard"
+    },
+    {
+      "id": "q57",
+      "question": "Which MongoDB type stores an array?",
+      "options": ["Int", "String", "List", "Array"],
+      "answer": "Array",
+      "category": "Hard"
+    },
+    {
+      "id": "q58",
+      "question": "Which hook is used for global state in React?",
+      "options": ["useGlobal()", "useContext()", "useShare()", "useExport()"],
+      "answer": "useContext()",
+      "category": "Hard"
+    },
+    {
+      "id": "q59",
+      "question": "What does res.send() do?",
+      "options": ["Sends file", "Ends response", "Sends JSON only", "Starts server"],
+      "answer": "Ends response",
+      "category": "Hard"
+    },
+    {
+      "id": "q60",
+      "question": "MongoDB stores data in?",
+      "options": ["Tables", "Rows", "Collections & Documents", "Files"],
+      "answer": "Collections & Documents",
       "category": "Hard"
     }
   ]
