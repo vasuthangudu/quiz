@@ -73,7 +73,6 @@
       "answer": "JavaScript runtime",
       "category": "Easy"
     },
-
     {
       "id": "q11",
       "question": "Output? console.log(2 + '2');",
@@ -391,11 +390,11 @@
     {
       "id": "q55",
       "question": "Which operator returns the right side if left is null?",
-      "options": ["??", "||", "&&", "?:",
-      ],
+      "options": ["??", "||", "&&", "?:"] ,
       "answer": "??",
       "category": "Hard"
     },
+
     {
       "id": "q56",
       "question": "Express middleware must include which parameter?",
