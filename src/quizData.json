@@ -1,433 +1,862 @@
 {
   "settings": {
-    "totalTime": "00:30:00"
+    "totalTime": "01:00:00"
   },
   "questions": [
     {
       "id": "q1",
-      "question": "Which command shows all databases in MongoDB shell?",
-      "options": ["show dbs", "db.show()", "list databases", "dbs"],
-      "answer": "show dbs",
+      "question": "Which tag is used to create a hyperlink in HTML?",
+      "options": ["<link>", "<a>", "<href>", "<p>"],
+      "answer": "<a>",
       "category": "Easy"
     },
     {
       "id": "q2",
-      "question": "What is the default port for MongoDB?",
-      "options": ["27017", "3000", "5000", "8000"],
-      "answer": "27017",
+      "question": "Which attribute sets the image source in HTML?",
+      "options": ["href", "src", "link", "path"],
+      "answer": "src",
       "category": "Easy"
     },
     {
       "id": "q3",
-      "question": "Which keyword is used to import a module in Node.js?",
-      "options": ["import", "require", "use", "load"],
-      "answer": "require",
+      "question": "Which HTML tag is used for the largest heading?",
+      "options": ["<h3>", "<h6>", "<h1>", "<head>"],
+      "answer": "<h1>",
       "category": "Easy"
     },
     {
       "id": "q4",
-      "question": "What is the output of console.log(typeof undefined);",
-      "options": ["undefined", "object", "null", "string"],
-      "answer": "undefined",
+      "question": "Which element is used for inserting a line break?",
+      "options": ["<hr>", "<br>", "<line>", "<lb>"],
+      "answer": "<br>",
       "category": "Easy"
     },
     {
       "id": "q5",
-      "question": "React is mainly used for?",
-      "options": ["Database", "Frontend UI", "Backend API", "Networking"],
-      "answer": "Frontend UI",
+      "question": "Which HTML tag is used to display a table row?",
+      "options": ["<tr>", "<td>", "<table>", "<row>"],
+      "answer": "<tr>",
       "category": "Easy"
     },
     {
       "id": "q6",
-      "question": "Which hook is used for managing state in React?",
-      "options": ["useEffect", "useState", "useMemo", "useRef"],
-      "answer": "useState",
+      "question": "Which CSS property changes text color?",
+      "options": ["font-color", "color", "text-style", "background"],
+      "answer": "color",
       "category": "Easy"
     },
     {
       "id": "q7",
-      "question": "What is Express.js?",
-      "options": ["Frontend framework", "Database", "Node.js framework", "CSS library"],
-      "answer": "Node.js framework",
+      "question": "Which CSS property sets background color?",
+      "options": ["bgcolor", "background", "background-color", "color"],
+      "answer": "background-color",
       "category": "Easy"
     },
     {
       "id": "q8",
-      "question": "Which HTTP method is used to retrieve data?",
-      "options": ["POST", "GET", "PUT", "DELETE"],
-      "answer": "GET",
+      "question": "Which property controls font size in CSS?",
+      "options": ["size", "font-size", "text-font", "font-style"],
+      "answer": "font-size",
       "category": "Easy"
     },
     {
       "id": "q9",
-      "question": "Which MongoDB data type stores text?",
-      "options": ["Number", "String", "Document", "Array"],
-      "answer": "String",
+      "question": "Which CSS property adds space inside an element?",
+      "options": ["margin", "padding", "border", "gap"],
+      "answer": "padding",
       "category": "Easy"
     },
     {
       "id": "q10",
-      "question": "What is Node.js?",
-      "options": ["JavaScript runtime", "Database", "UI library", "Web server"],
-      "answer": "JavaScript runtime",
+      "question": "Which CSS selector selects an element by ID?",
+      "options": ["#", ".", "/", "@id"],
+      "answer": "#",
       "category": "Easy"
     },
     {
       "id": "q11",
-      "question": "Output? console.log(2 + '2');",
-      "options": ["22", "4", "NaN", "undefined"],
-      "answer": "22",
+      "question": "What is the output of console.log(1 + '1');",
+      "options": ["2", "11", "undefined", "NaN"],
+      "answer": "11",
       "category": "Easy"
     },
     {
       "id": "q12",
-      "question": "What does npm stand for?",
-      "options": ["Node Package Manager", "New Project Maker", "Network Project Manager", "Node Program Manager"],
-      "answer": "Node Package Manager",
+      "question": "Which keyword declares a variable in JavaScript?",
+      "options": ["var", "int", "define", "make"],
+      "answer": "var",
       "category": "Easy"
     },
     {
       "id": "q13",
-      "question": "Which file defines Node.js project dependencies?",
-      "options": ["index.js", "server.js", "package.json", "config.json"],
-      "answer": "package.json",
+      "question": "Which method converts JSON to object?",
+      "options": ["JSON.convert()", "JSON.parse()", "JSON.stringify()", "parse.json()"],
+      "answer": "JSON.parse()",
       "category": "Easy"
     },
     {
       "id": "q14",
-      "question": "Which command creates a React app?",
-      "options": ["npm init react", "create-react-app", "npx create-react-app", "react new app"],
-      "answer": "npx create-react-app",
+      "question": "Which method prints output in console?",
+      "options": ["console.print()", "log.print()", "console.log()", "print()"],
+      "answer": "console.log()",
       "category": "Easy"
     },
     {
       "id": "q15",
-      "question": "What does REST stand for?",
-      "options": ["Random State Transfer", "Representational State Transfer", "Reconstructed Secure Transfer", "Remote Script Transfer"],
-      "answer": "Representational State Transfer",
+      "question": "Which symbol starts a comment in JavaScript?",
+      "options": ["//", "##", "<!--", "--"],
+      "answer": "//",
+      "category": "Easy"
+    },
+    {
+      "id": "q16",
+      "question": "Which class is used for a primary button in Bootstrap?",
+      "options": ["btn-main", "button-primary", "btn btn-primary", "primary-btn"],
+      "answer": "btn btn-primary",
+      "category": "Easy"
+    },
+    {
+      "id": "q17",
+      "question": "Which Bootstrap class makes text bold?",
+      "options": ["fw-bold", "text-bold", "font-bold", "bold"],
+      "answer": "fw-bold",
+      "category": "Easy"
+    },
+    {
+      "id": "q18",
+      "question": "Bootstrap grid uses how many columns?",
+      "options": ["6", "8", "12", "16"],
+      "answer": "12",
+      "category": "Easy"
+    },
+    {
+      "id": "q19",
+      "question": "Which Bootstrap class centers text?",
+      "options": ["text-center", "center", "align-center", "middle-text"],
+      "answer": "text-center",
+      "category": "Easy"
+    },
+    {
+      "id": "q20",
+      "question": "Which class creates a responsive container?",
+      "options": ["container-md", "container-xl", "container", "box"],
+      "answer": "container",
+      "category": "Easy"
+    },
+    {
+      "id": "q21",
+      "question": "React was developed by which company?",
+      "options": ["Google", "Microsoft", "Facebook", "Twitter"],
+      "answer": "Facebook",
+      "category": "Easy"
+    },
+    {
+      "id": "q22",
+      "question": "Which hook manages component state?",
+      "options": ["useRef", "useState", "useCallback", "useFetch"],
+      "answer": "useState",
+      "category": "Easy"
+    },
+    {
+      "id": "q23",
+      "question": "React uses which DOM?",
+      "options": ["Shadow DOM", "Virtual DOM", "Real DOM", "Super DOM"],
+      "answer": "Virtual DOM",
+      "category": "Easy"
+    },
+    {
+      "id": "q24",
+      "question": "JSX stands for?",
+           "options": ["Java Syntax XML", "Javascript XML", "JS Extended", "Java Source eXtension"],
+      "answer": "Javascript XML",
+      "category": "Easy"
+    },
+    {
+      "id": "q25",
+      "question": "Which command creates a React app?",
+      "options": ["npm create react", "npx create-react-app", "react-new app", "create-react"],
+      "answer": "npx create-react-app",
+      "category": "Easy"
+    },
+    {
+      "id": "q26",
+      "question": "Express.js is built on which language?",
+      "options": ["Java", "Python", "Node.js", "C++"],
+      "answer": "Node.js",
+      "category": "Easy"
+    },
+    {
+      "id": "q27",
+      "question": "Which method handles GET requests in Express?",
+      "options": ["app.fetch()", "app.call()", "app.get()", "app.req()"],
+      "answer": "app.get()",
+      "category": "Easy"
+    },
+    {
+      "id": "q28",
+      "question": "Which middleware parses JSON in Express?",
+      "options": ["express.raw()", "express.text()", "express.json()", "body()"],
+      "answer": "express.json()",
+      "category": "Easy"
+    },
+    {
+      "id": "q29",
+      "question": "Which port is commonly used in Express?",
+      "options": ["3000", "2000", "8080", "500"],
+      "answer": "3000",
+      "category": "Easy"
+    },
+    {
+      "id": "q30",
+      "question": "Which Express method starts a server?",
+      "options": ["app.start()", "app.run()", "app.listen()", "server.open()"],
+      "answer": "app.listen()",
+      "category": "Easy"
+    },
+    {
+      "id": "q31",
+      "question": "MongoDB stores data in?",
+      "options": ["Tables", "Files", "Collections", "Grids"],
+      "answer": "Collections",
+      "category": "Easy"
+    },
+    {
+      "id": "q32",
+      "question": "Which command shows databases in MongoDB?",
+      "options": ["db.show()", "list dbs", "show dbs", "dbs"],
+      "answer": "show dbs",
+      "category": "Easy"
+    },
+    {
+      "id": "q33",
+      "question": "Which MongoDB type stores text?",
+      "options": ["Text", "String", "Char", "Document"],
+      "answer": "String",
+      "category": "Easy"
+    },
+    {
+      "id": "q34",
+      "question": "Which command inserts one document?",
+      "options": ["insert()", "insertOne()", "addOne()", "push()"],
+      "answer": "insertOne()",
+      "category": "Easy"
+    },
+    {
+      "id": "q35",
+      "question": "MongoDB default port is?",
+      "options": ["3000", "27017", "8080", "5000"],
+      "answer": "27017",
+      "category": "Easy"
+    },
+    {
+      "id": "q36",
+      "question": "GitHub is used for?",
+      "options": ["Hosting code", "Editing photos", "Watching videos", "Cloud gaming"],
+      "answer": "Hosting code",
+      "category": "Easy"
+    },
+    {
+      "id": "q37",
+      "question": "Which command initializes Git?",
+      "options": ["git init", "git start", "git open", "git begin"],
+      "answer": "git init",
+      "category": "Easy"
+    },
+    {
+      "id": "q38",
+      "question": "Which command stages files?",
+      "options": ["git store", "git stage", "git add", "git push"],
+      "answer": "git add",
+      "category": "Easy"
+    },
+    {
+      "id": "q39",
+      "question": "Which command uploads code to GitHub?",
+      "options": ["git upload", "git commit", "git push", "git add"],
+      "answer": "git push",
+      "category": "Easy"
+    },
+    {
+      "id": "q40",
+      "question": "Which command clones a repository?",
+      "options": ["git fetch", "git clone", "git pull", "git copy"],
+      "answer": "git clone",
       "category": "Easy"
     },
 
     {
-      "id": "q16",
-      "question": "Which HTTP status code means 'Not Found'?",
-      "options": ["200", "400", "404", "500"],
-      "answer": "404",
+      "id": "q41",
+      "question": "Which Node.js module handles file operations?",
+      "options": ["os", "http", "fs", "path"],
+      "answer": "fs",
+      "category": "Easy"
+    },
+    {
+      "id": "q42",
+      "question": "Node.js uses which language?",
+      "options": ["Python", "JavaScript", "C#", "Java"],
+      "answer": "JavaScript",
+      "category": "Easy"
+    },
+    {
+      "id": "q43",
+      "question": "Which command runs a Node file?",
+      "options": ["npm run file", "execute file.js", "node file.js", "run file"],
+      "answer": "node file.js",
+      "category": "Easy"
+    },
+    {
+      "id": "q44",
+      "question": "Which package manager is used with Node?",
+      "options": ["pip", "npm", "apt", "store"],
+      "answer": "npm",
+      "category": "Easy"
+    },
+    {
+      "id": "q45",
+      "question": "Which file contains dependencies in Node?",
+      "options": ["index.js", "package.json", "node.json", "app.js"],
+      "answer": "package.json",
+      "category": "Easy"
+    },
+
+    {
+      "id": "q46",
+      "question": "Which HTML tag defines an unordered list?",
+      "options": ["<li>", "<ol>", "<ul>", "<list>"],
+      "answer": "<ul>",
       "category": "Medium"
     },
     {
-      "id": "q17",
+      "id": "q47",
+      "question": "Which attribute opens a link in new tab?",
+      "options": ["target='_tab'", "open='new'", "target='_blank'", "href='new'"],
+      "answer": "target='_blank'",
+      "category": "Medium"
+    },
+    {
+      "id": "q48",
+      "question": "Which tag embeds video in HTML?",
+      "options": ["<media>", "<video>", "<movie>", "<file>"],
+      "answer": "<video>",
+      "category": "Medium"
+    },
+    {
+      "id": "q49",
+      "question": "Which attribute makes input required?",
+      "options": ["need", "required", "must", "validate"],
+      "answer": "required",
+      "category": "Medium"
+    },
+    {
+      "id": "q50",
+      "question": "Which CSS property controls element layout?",
+      "options": ["position", "layout", "display", "block"],
+      "answer": "display",
+      "category": "Medium"
+    },
+
+    {
+      "id": "q51",
+      "question": "Which CSS layout enables flex behavior?",
+      "options": ["display:block", "display:flex", "display:inline", "layout:flex"],
+      "answer": "display:flex",
+      "category": "Medium"
+    },
+    {
+      "id": "q52",
+      "question": "Which CSS unit is relative to root font size?",
+      "options": ["px", "em", "rem", "%"],
+      "answer": "rem",
+      "category": "Medium"
+    },
+    {
+      "id": "q53",
+      "question": "Which property sets transparency?",
+      "options": ["alpha", "color-opacity", "opacity", "transparent"],
+      "answer": "opacity",
+      "category": "Medium"
+    },
+    {
+      "id": "q54",
+      "question": "Which selector selects all p inside div?",
+      "options": ["div p", "div+p", "div>p", "p div"],
+      "answer": "div p",
+      "category": "Medium"
+    },
+    {
+      "id": "q55",
+      "question": "Which operator checks equality without type conversion?",
+      "options": ["==", "===", "!=", "=>"],
+      "answer": "===",
+      "category": "Medium"
+    },
+
+    {
+      "id": "q56",
+      "question": "Output of console.log('10' - 5);",
+      "options": ["105", "10-5", "5", "NaN"],
+      "answer": "5",
+      "category": "Medium"
+    },
+    {
+      "id": "q57",
+      "question": "Which method adds an element to an array?",
+      "options": ["push()", "add()", "insert()", "append()"],
+      "answer": "push()",
+      "category": "Medium"
+    },
+    {
+      "id": "q58",
+      "question": "Which method removes last item from array?",
+      "options": ["pop()", "shift()", "remove()", "delete()"],
+      "answer": "pop()",
+      "category": "Medium"
+    },
+    {
+      "id": "q59",
+      "question": "Which method converts object to JSON?",
+      "options": ["JSON.stringify()", "JSON.parse()", "convert.json()", "object.json()"],
+      "answer": "JSON.stringify()",
+      "category": "Medium"
+    },
+    {
+      "id": "q60",
+      "question": "Which keyword handles errors?",
+      "options": ["throw", "catch", "try", "try-catch"],
+      "answer": "try-catch",
+      "category": "Medium"
+    },
+
+    {
+      "id": "q61",
+      "question": "Which Bootstrap class hides element on small screens?",
+      "options": ["d-sm-none", "hide-sm", "none-sm", "invisible-sm"],
+      "answer": "d-sm-none",
+      "category": "Medium"
+    },
+    {
+      "id": "q62",
+      "question": "Which class adds margin top?",
+      "options": ["mt-3", "margin-top", "top-3", "m-top-3"],
+      "answer": "mt-3",
+      "category": "Medium"
+    },
+    {
+      "id": "q63",
+      "question": "Bootstrap is based on which language?",
+      "options": ["PHP", "CSS & JS", "Python", "Java"],
+      "answer": "CSS & JS",
+      "category": "Medium"
+    },
+    {
+      "id": "q64",
+      "question": "Which class creates a card?",
+      "options": ["card-ui", "card", "ui-card", "box-card"],
+      "answer": "card",
+      "category": "Medium"
+    },
+    {
+      "id": "q65",
+      "question": "Which class applies responsive image?",
+      "options": ["img-fluid", "image-responsive", "img-auto", "img-res"],
+      "answer": "img-fluid",
+      "category": "Medium"
+    },
+
+    {
+      "id": "q66",
       "question": "Which hook runs after every render?",
-      "options": ["useState", "useRef", "useEffect", "useContext"],
+      "options": ["useRender", "useEffect", "useState", "useCall"],
       "answer": "useEffect",
       "category": "Medium"
     },
     {
-      "id": "q18",
-      "question": "What is the default port for Express.js?",
-      "options": ["5000", "8000", "3000", "27017"],
-      "answer": "3000",
+      "id": "q67",
+      "question": "Which hook optimizes values?",
+      "options": ["useMemo", "useState", "useCallback", "useVal"],
+      "answer": "useMemo",
       "category": "Medium"
     },
     {
-      "id": "q19",
-      "question": "Mongoose is used for?",
-      "options": ["React state", "MongoDB schema modeling", "CSS", "Frontend routing"],
-      "answer": "MongoDB schema modeling",
+      "id": "q68",
+      "question": "Which file is root of React app?",
+      "options": ["App.js", "Index.js", "Main.js", "Root.js"],
+      "answer": "Index.js",
       "category": "Medium"
     },
     {
-      "id": "q20",
-      "question": "Which operator spreads elements of an array?",
-      "options": ["++", "...", "**", "=>"],
-      "answer": "...",
+      "id": "q69",
+      "question": "React components must return?",
+      "options": ["HTML", "JSX", "Function", "Object"],
+      "answer": "JSX",
       "category": "Medium"
     },
     {
-      "id": "q21",
-      "question": "Output? console.log('5' - 1);",
-      "options": ["4", "51", "NaN", "undefined"],
-      "answer": "4",
-      "category": "Medium"
-    },
-    {
-      "id": "q22",
-      "question": "Which command starts a Node server with auto-reload?",
-      "options": ["npm start", "node server.js", "nodemon server.js", "node reload"],
-      "answer": "nodemon server.js",
-      "category": "Medium"
-    },
-    {
-      "id": "q23",
-      "question": "Which middleware handles JSON in Express?",
-      "options": ["express.urlencoded()", "express.json()", "json()", "bodyParser.raw()"],
-      "answer": "express.json()",
-      "category": "Medium"
-    },
-    {
-      "id": "q24",
-      "question": "React components must start with?",
-      "options": ["Uppercase letter", "Lowercase letter", "Number", "Symbol"],
-      "answer": "Uppercase letter",
-      "category": "Medium"
-    },
-    {
-      "id": "q25",
-      "question": "Which MongoDB command deletes a document?",
-      "options": ["remove()", "delete()", "deleteOne()", "erase()"],
-      "answer": "deleteOne()",
+      "id": "q70",
+      "question": "Which package handles routing?",
+      "options": ["react-path", "react-router-dom", "router-react", "react-navi"],
+      "answer": "react-router-dom",
       "category": "Medium"
     },
 
     {
-      "id": "q26",
-      "question": "Output? console.log([] == 0);",
-      "options": ["true", "false", "undefined", "NaN"],
-      "answer": "true",
+      "id": "q71",
+      "question": "Which Express method handles POST?",
+      "options": ["app.push()", "app.post()", "post()", "app.send()"],
+      "answer": "app.post()",
       "category": "Medium"
     },
     {
-      "id": "q27",
-      "question": "Which hook stores a value without re-rendering?",
-      "options": ["useState", "useEffect", "useMemo", "useRef"],
-      "answer": "useRef",
+      "id": "q72",
+      "question": "Express supports which architecture?",
+      "options": ["MVC", "REST", "SOAP", "GraphQL only"],
+      "answer": "REST",
       "category": "Medium"
     },
     {
-      "id": "q28",
-      "question": "What is JWT used for?",
-      "options": ["Database storage", "Authentication", "CSS styling", "Routing"],
-      "answer": "Authentication",
+      "id": "q73",
+      "question": "Which middleware handles URL encoded data?",
+      "options": ["express.json()", "express.urlencoded()", "body.json()", "url.parse()"],
+      "answer": "express.urlencoded()",
       "category": "Medium"
     },
     {
-      "id": "q29",
-      "question": "Which library is used to hash passwords in Node.js?",
-      "options": ["crypto", "bcrypt", "argon2", "hashlib"],
+      "id": "q74",
+      "question": "Which status code means Bad Request?",
+      "options": ["400", "401", "404", "500"],
+      "answer": "400",
+      "category": "Medium"
+    },
+    {
+      "id": "q75",
+      "question": "Which module handles password hashing?",
+      "options": ["sha", "bcrypt", "encrypt", "pwHash"],
       "answer": "bcrypt",
       "category": "Medium"
     },
+
     {
-      "id": "q30",
-      "question": "Which method is used to update data in MongoDB?",
-      "options": ["updateOne()", "changeOne()", "set()", "modify()"],
-      "answer": "updateOne()",
+      "id": "q76",
+      "question": "Which MongoDB operator matches greater values?",
+      "options": ["$gt", "$gte", "$greater", "$big"],
+      "answer": "$gt",
+      "category": "Medium"
+    },
+    {
+      "id": "q77",
+      "question": "Which Mongoose function finds many documents?",
+      "options": ["find()", "findMany()", "search()", "getAll()"],
+      "answer": "find()",
+      "category": "Medium"
+    },
+    {
+      "id": "q78",
+      "question": "Which command shows collections?",
+      "options": ["show tables", "show collections", "list col", "db.collections"],
+      "answer": "show collections",
+      "category": "Medium"
+    },
+    {
+      "id": "q79",
+      "question": "Which type stores true/false?",
+      "options": ["Bool", "Number", "Boolean", "Bit"],
+      "answer": "Boolean",
+      "category": "Medium"
+    },
+    {
+      "id": "q80",
+      "question": "Which operator checks if field exists?",
+      "options": ["$has", "$exists", "$check", "$present"],
+      "answer": "$exists",
       "category": "Medium"
     },
 
     {
-      "id": "q31",
-      "question": "Output? console.log(typeof []);",
-      "options": ["object", "array", "undefined", "null"],
+      "id": "q81",
+      "question": "Which Git command creates a new branch?",
+      "options": ["git new", "git branch", "git create branch", "git fork"],
+      "answer": "git branch",
+      "category": "Medium"
+    },
+    {
+      "id": "q82",
+      "question": "Which command merges branches?",
+      "options": ["git add", "git commit", "git merge", "git mix"],
+      "answer": "git merge",
+      "category": "Medium"
+    },
+    {
+      "id": "q83",
+      "question": "Which Git command downloads latest changes?",
+      "options": ["git push", "git commit", "git pull", "git download"],
+      "answer": "git pull",
+      "category": "Medium"
+    },
+    {
+      "id": "q84",
+      "question": "Which file ignores unwanted files?",
+      "options": ["gitignore.txt", ".gitignore", "ignore.config", "git.ignore"],
+      "answer": ".gitignore",
+      "category": "Medium"
+    },
+    {
+      "id": "q85",
+      "question": "Which Git command shows commit history?",
+      "options": ["git history", "git commits", "git log", "git track"],
+      "answer": "git log",
+      "category": "Medium"
+    },
+
+    {
+      "id": "q86",
+      "question": "Node.js uses which paradigm?",
+      "options": ["Blocking I/O", "Non-blocking I/O", "Synchronous only", "Parallel only"],
+      "answer": "Non-blocking I/O",
+      "category": "Medium"
+    },
+    {
+      "id": "q87",
+      "question": "Which module creates a server in Node?",
+      "options": ["net", "http", "url", "fs"],
+      "answer": "http",
+      "category": "Medium"
+    },
+    {
+      "id": "q88",
+      "question": "Which method reads a file?",
+      "options": ["fs.read()", "fs.readFile()", "file.read()", "fs.open()"],
+      "answer": "fs.readFile()",
+      "category": "Medium"
+    },
+    {
+      "id": "q89",
+      "question": "Which keyword imports modules in Node?",
+      "options": ["import", "use", "require", "load"],
+      "answer": "require",
+      "category": "Medium"
+    },
+    {
+      "id": "q90",
+      "question": "Which command installs a package?",
+      "options": ["npm get", "npm add", "npm install", "npm push"],
+      "answer": "npm install",
+      "category": "Medium"
+    },
+
+    {
+      "id": "q91",
+      "question": "Which HTML tag defines a form?",
+      "options": ["<form>", "<input>", "<main>", "<container>"],
+      "answer": "<form>",
+      "category": "Hard"
+    },
+    {
+      "id": "q92",
+      "question": "Which HTML tag is used for semantic navigation?",
+      "options": ["<nav>", "<navigate>", "<menu>", "<header>"],
+      "answer": "<nav>",
+      "category": "Hard"
+    },
+    {
+      "id": "q93",
+      "question": "Which meta tag makes page responsive?",
+      "options": ["meta-responsive", "viewport", "page-fit", "scale"],
+      "answer": "viewport",
+      "category": "Hard"
+    },
+    {
+      "id": "q94",
+      "question": "Which CSS property creates a grid layout?",
+      "options": ["display:table", "display:grid", "display:block", "layout:grid"],
+      "answer": "display:grid",
+      "category": "Hard"
+    },
+    {
+      "id": "q95",
+      "question": "Which property controls layering order?",
+      "options": ["layer", "z-index", "index", "stack"],
+      "answer": "z-index",
+      "category": "Hard"
+    },
+
+    {
+      "id": "q96",
+      "question": "What is typeof null?",
+      "options": ["null", "object", "undefined", "string"],
       "answer": "object",
       "category": "Hard"
     },
     {
-      "id": "q32",
-      "question": "Which method sends JSON response in Express?",
-      "options": ["res.sendJSON()", "res.json()", "res.text()", "res.sendFile()"],
-      "answer": "res.json()",
+      "id": "q97",
+      "question": "Which JS function executes after delay?",
+      "options": ["delay()", "wait()", "setTimeout()", "timer()"],
+      "answer": "setTimeout()",
       "category": "Hard"
     },
     {
-      "id": "q33",
-      "question": "Which hook is used for memoization?",
-      "options": ["useMemo", "useRef", "useCallback", "useState"],
-      "answer": "useMemo",
+      "id": "q98",
+      "question": "Which keyword prevents variable reassignment?",
+      "options": ["var", "let", "const", "static"],
+      "answer": "const",
       "category": "Hard"
     },
     {
-      "id": "q34",
-      "question": "Which MongoDB operator matches documents greater than a value?",
-      "options": ["$gte", "$gt", "$greater", "$more"],
-      "answer": "$gt",
+      "id": "q99",
+      "question": "Which method flattens arrays?",
+      "options": ["flat()", "flatten()", "merge()", "spread()"],
+      "answer": "flat()",
       "category": "Hard"
     },
     {
-      "id": "q35",
-      "question": "Output? console.log(Number('abc'));",
-      "options": ["NaN", "0", "abc", "undefined"],
-      "answer": "NaN",
-      "category": "Hard"
-    },
-    {
-      "id": "q36",
-      "question": "What is CORS used for?",
-      "options": ["Security", "Cross-origin access", "Database connection", "Routing"],
-      "answer": "Cross-origin access",
-      "category": "Hard"
-    },
-    {
-      "id": "q37",
-      "question": "Which method merges arrays?",
-      "options": ["join()", "concat()", "merge()", "combine()"],
-      "answer": "concat()",
-      "category": "Hard"
-    },
-    {
-      "id": "q38",
-      "question": "Which operator is used for optional chaining?",
-      "options": ["?.", "::", "=>", "??"],
+      "id": "q100",
+      "question": "Which operator performs optional chaining?",
+      "options": ["??", "?.", "::", "=>"],
       "answer": "?.",
       "category": "Hard"
     },
+
     {
-      "id": "q39",
-      "question": "Which function creates a Redux store?",
-      "options": ["new Store()", "createStore()", "makeStore()", "configure()"],
-      "answer": "createStore()",
+      "id": "q101",
+      "question": "Which Bootstrap class fixes navbar on top?",
+      "options": ["navbar-fixed", "fixed-top", "top-fixed", "nav-top"],
+      "answer": "fixed-top",
       "category": "Hard"
     },
     {
-      "id": "q40",
-      "question": "Which hook is used for expensive callback optimization?",
-      "options": ["useMemo", "useState", "useCallback", "useEffect"],
+      "id": "q102",
+      "question": "Which class creates 3 equal columns?",
+      "options": ["col-4", "col-3", "col-6", "col-2"],
+      "answer": "col-4",
+      "category": "Hard"
+    },
+    {
+      "id": "q103",
+      "question": "Which container is fluid in Bootstrap?",
+      "options": ["container", "container-fluid", "fluid-box", "box-fluid"],
+      "answer": "container-fluid",
+      "category": "Hard"
+    },
+    {
+      "id": "q104",
+      "question": "Bootstrap is mainly based on?",
+      "options": ["Flexbox", "Grid", "Table layout", "Absolute layout"],
+      "answer": "Flexbox",
+      "category": "Hard"
+    },
+    {
+      "id": "q105",
+      "question": "Which hook is used for memoizing callbacks?",
+      "options": ["useMemo", "useCallback", "useEffect", "useState"],
       "answer": "useCallback",
       "category": "Hard"
     },
 
     {
-      "id": "q41",
-      "question": "Output? console.log([1,2,3].map(x=>x*2));",
-      "options": ["[2,4,6]", "2,4,6", "undefined", "Error"],
-      "answer": "[2,4,6]",
+      "id": "q106",
+      "question": "Which hook is used for context consumption?",
+      "options": ["useShared", "useContext", "useProp", "useGlobal"],
+      "answer": "useContext",
       "category": "Hard"
     },
     {
-      "id": "q42",
-      "question": "Which Express function defines a new route?",
-      "options": ["app.route()", "app.create()", "app.listen()", "app.newRoute()"],
-      "answer": "app.route()",
+      "id": "q107",
+      "question": "React keys must be?",
+      "options": ["Random", "Unique", "Global", "Optional"],
+      "answer": "Unique",
       "category": "Hard"
     },
     {
-      "id": "q43",
-      "question": "Which MongoDB command inserts multiple documents?",
-      "options": ["insert()", "insertMany()", "addMany()", "pushMany()"],
-      "answer": "insertMany()",
+      "id": "q108",
+      "question": "Which lifecycle method runs first in class components?",
+      "options": ["componentDidMount", "componentWillUnmount", "constructor", "render"],
+      "answer": "constructor",
       "category": "Hard"
     },
     {
-      "id": "q44",
-      "question": "React uses which type of DOM?",
-      "options": ["Real DOM", "Shadow DOM", "Virtual DOM", "Custom DOM"],
-      "answer": "Virtual DOM",
+      "id": "q109",
+      "question": "Which Express function sends JSON?",
+      "options": ["res.sendJson()", "res.send()", "res.json()", "res.body()"],
+      "answer": "res.json()",
       "category": "Hard"
     },
     {
-      "id": "q45",
-      "question": "Which Mongoose method finds one document?",
-      "options": ["find()", "findOne()", "getOne()", "searchOne()"],
-      "answer": "findOne()",
-      "category": "Hard"
-    },
-
-    {
-      "id": "q46",
-      "question": "Output? console.log('5' * 2);",
-      "options": ["10", "52", "NaN", "undefined"],
-      "answer": "10",
-      "category": "Hard"
-    },
-    {
-      "id": "q47",
-      "question": "Which command installs Express?",
-      "options": ["npm install express", "npm get express", "install express", "node express"],
-      "answer": "npm install express",
-      "category": "Hard"
-    },
-    {
-      "id": "q48",
-      "question": "Which of these is NOT a valid React hook?",
-      "options": ["useState", "useEffect", "useClass", "useRef"],
-      "answer": "useClass",
-      "category": "Hard"
-    },
-    {
-      "id": "q49",
-      "question": "Which HTTP status code represents server error?",
-      "options": ["400", "401", "403", "500"],
+      "id": "q110",
+      "question": "Which status code indicates server error?",
+      "options": ["200", "301", "500", "403"],
       "answer": "500",
       "category": "Hard"
     },
+
     {
-      "id": "q50",
-      "question": "What does async function return?",
-      "options": ["Promise", "Number", "String", "Callback"],
-      "answer": "Promise",
+      "id": "q111",
+      "question": "Which MongoDB operator matches multiple values?",
+      "options": ["$in", "$or", "$eq", "$all"],
+      "answer": "$in",
+      "category": "Hard"
+    },
+    {
+      "id": "q112",
+      "question": "Which command updates many documents?",
+      "options": ["updateOne()", "update()", "updateMany()", "modifyMany()"],
+      "answer": "updateMany()",
+      "category": "Hard"
+    },
+    {
+      "id": "q113",
+      "question": "In MongoDB, document is similar to?",
+      "options": ["Row", "Column", "File", "Node"],
+      "answer": "Row",
+      "category": "Hard"
+    },
+    {
+      "id": "q114",
+      "question": "Which format does MongoDB use?",
+      "options": ["XML", "BSON", "CSV", "SQL"],
+      "answer": "BSON",
+      "category": "Hard"
+    },
+    {
+      "id": "q115",
+      "question": "Which command shows current Git branch?",
+      "options": ["git branch", "git show", "git status", "git list"],
+      "answer": "git branch",
       "category": "Hard"
     },
 
     {
-      "id": "q51",
-      "question": "Output? console.log({} + {});",
-      "options": ["[object Object][object Object]", "NaN", "0", "undefined"],
-      "answer": "[object Object][object Object]",
+      "id": "q116",
+      "question": "Which command reverts last commit?",
+      "options": ["git undo", "git revert", "git reset", "git restore"],
+      "answer": "git revert",
       "category": "Hard"
     },
     {
-      "id": "q52",
-      "question": "What does fetch() return?",
-      "options": ["Object", "Promise", "String", "JSON"],
-      "answer": "Promise",
+      "id": "q117",
+      "question": "Which Git merge strategy keeps both changes?",
+      "options": ["recursive", "ours", "theirs", "merge-auto"],
+      "answer": "recursive",
       "category": "Hard"
     },
     {
-      "id": "q53",
-      "question": "Which MongoDB command shows collections?",
-      "options": ["show tables", "show collections", "list collections", "db.collections"],
-      "answer": "show collections",
+      "id": "q118",
+      "question": "Which Node module handles paths?",
+      "options": ["path", "route", "dir", "url"],
+      "answer": "path",
       "category": "Hard"
     },
     {
-      "id": "q54",
-      "question": "React Router is used for?",
-      "options": ["API calls", "Component styling", "Page navigation", "Database operations"],
-      "answer": "Page navigation",
+      "id": "q119",
+      "question": "Which Node module handles OS-level info?",
+      "options": ["info", "os", "sys", "host"],
+      "answer": "os",
       "category": "Hard"
     },
     {
-      "id": "q55",
-      "question": "Which operator returns the right side if left is null?",
-      "options": ["??", "||", "&&", "?:"] ,
-      "answer": "??",
-      "category": "Hard"
-    },
-
-    {
-      "id": "q56",
-      "question": "Express middleware must include which parameter?",
-      "options": ["res", "next", "json", "callback"],
-      "answer": "next",
-      "category": "Hard"
-    },
-    {
-      "id": "q57",
-      "question": "Which MongoDB type stores an array?",
-      "options": ["Int", "String", "List", "Array"],
-      "answer": "Array",
-      "category": "Hard"
-    },
-    {
-      "id": "q58",
-      "question": "Which hook is used for global state in React?",
-      "options": ["useGlobal()", "useContext()", "useShare()", "useExport()"],
-      "answer": "useContext()",
-      "category": "Hard"
-    },
-    {
-      "id": "q59",
-      "question": "What does res.send() do?",
-      "options": ["Sends file", "Ends response", "Sends JSON only", "Starts server"],
-      "answer": "Ends response",
-      "category": "Hard"
-    },
-    {
-      "id": "q60",
-      "question": "MongoDB stores data in?",
-      "options": ["Tables", "Rows", "Collections & Documents", "Files"],
-      "answer": "Collections & Documents",
+      "id": "q120",
+      "question": "Which Node function runs async code?",
+      "options": ["async.run()", "nextTick()", "runAsync()", "tick()"],
+      "answer": "nextTick()",
       "category": "Hard"
     }
   ]
