@@ -838,20 +838,8 @@
       "answer": "recursive",
       "category": "Hard"
     },
-    {
-      "id": "q118",
-      "question": "Which Node module handles paths?",
-      "options": ["path", "route", "dir", "url"],
-      "answer": "path",
-      "category": "Hard"
-    },
-    {
-      "id": "q119",
-      "question": "Which Node module handles OS-level info?",
-      "options": ["info", "os", "sys", "host"],
-      "answer": "os",
-      "category": "Hard"
-    },
+    
+    
     {
       "id": "q120",
       "question": "Which Node function runs async code?",
