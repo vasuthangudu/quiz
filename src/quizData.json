@@ -831,13 +831,7 @@
       "answer": "git revert",
       "category": "Hard"
     },
-    {
-      "id": "q117",
-      "question": "Which Git merge strategy keeps both changes?",
-      "options": ["recursive", "ours", "theirs", "merge-auto"],
-      "answer": "recursive",
-      "category": "Hard"
-    },
+    
     
     
     {
