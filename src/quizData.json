@@ -528,21 +528,9 @@
       "answer": "400",
       "category": "Medium"
     },
-    {
-      "id": "q75",
-      "question": "Which module handles password hashing?",
-      "options": ["sha", "bcrypt", "encrypt", "pwHash"],
-      "answer": "bcrypt",
-      "category": "Medium"
-    },
+   
 
-    {
-      "id": "q76",
-      "question": "Which MongoDB operator matches greater values?",
-      "options": ["$gt", "$gte", "$greater", "$big"],
-      "answer": "$gt",
-      "category": "Medium"
-    },
+ 
     {
       "id": "q77",
       "question": "Which Mongoose function finds many documents?",
