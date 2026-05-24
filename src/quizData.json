@@ -45,13 +45,7 @@
       "answer": "color",
       "category": "Easy"
     },
-    {
-      "id": "q7",
-      "question": "Which CSS property sets background color?",
-      "options": ["bgcolor", "background", "background-color", "color"],
-      "answer": "background-color",
-      "category": "Easy"
-    },
+    
     {
       "id": "q8",
       "question": "Which property controls font size in CSS?",
