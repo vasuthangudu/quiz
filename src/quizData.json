@@ -143,13 +143,7 @@
       "answer": "container",
       "category": "Easy"
     },
-    {
-      "id": "q21",
-      "question": "React was developed by which company?",
-      "options": ["Google", "Microsoft", "Facebook", "Twitter"],
-      "answer": "Facebook",
-      "category": "Easy"
-    },
+   
     {
       "id": "q22",
       "question": "Which hook manages component state?",
