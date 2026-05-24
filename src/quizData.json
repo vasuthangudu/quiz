@@ -73,13 +73,7 @@
       "answer": "#",
       "category": "Easy"
     },
-    {
-      "id": "q11",
-      "question": "What is the output of console.log(1 + '1');",
-      "options": ["2", "11", "undefined", "NaN"],
-      "answer": "11",
-      "category": "Easy"
-    },
+   
     {
       "id": "q12",
       "question": "Which keyword declares a variable in JavaScript?",
