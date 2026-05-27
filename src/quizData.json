@@ -17,13 +17,7 @@
       "answer": "src",
       "category": "Easy"
     },
-    {
-      "id": "q3",
-      "question": "Which HTML tag is used for the largest heading?",
-      "options": ["<h3>", "<h6>", "<h1>", "<head>"],
-      "answer": "<h1>",
-      "category": "Easy"
-    },
+   
     {
       "id": "q4",
       "question": "Which element is used for inserting a line break?",
