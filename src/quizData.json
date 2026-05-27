@@ -10,13 +10,6 @@
       "answer": "<a>",
       "category": "Easy"
     },
-    {
-      "id": "q2",
-      "question": "Which attribute sets the image source in HTML?",
-      "options": ["href", "src", "link", "path"],
-      "answer": "src",
-      "category": "Easy"
-    },
    
     {
       "id": "q4",
