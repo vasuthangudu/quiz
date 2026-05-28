@@ -11,13 +11,7 @@
       "category": "Easy"
     },
    
-    {
-      "id": "q4",
-      "question": "Which element is used for inserting a line break?",
-      "options": ["<hr>", "<br>", "<line>", "<lb>"],
-      "answer": "<br>",
-      "category": "Easy"
-    },
+   
     {
       "id": "q5",
       "question": "Which HTML tag is used to display a table row?",
